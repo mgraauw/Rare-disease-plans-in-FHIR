@@ -177,6 +177,13 @@
                             <definitionUri value="activity-definition-loinc-{@code}"/>
                         </action>
                     </xsl:for-each>
+                    <!-- A single Questionnaire per disease now -->
+                    <xsl:if test=".//concept[@codeSystem = '2.16.840.1.113883.6.254']">
+                        <action>
+                            <title value="Questionnaire for {name[1]}"/>
+                            <definitionUri value="questionnaire-{$shortName}"/>
+                        </action>
+                    </xsl:if>
                 </PlanDefinition>
             </xsl:result-document>
             

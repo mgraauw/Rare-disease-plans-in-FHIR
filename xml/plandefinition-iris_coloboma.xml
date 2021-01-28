@@ -60,4 +60,8 @@
          </coding>
       </addresses>
    </goal>
+   <action>
+      <title value="Questionnaire for Iris Coloboma"/>
+      <definitionUri value="questionnaire-iris_coloboma"/>
+   </action>
 </PlanDefinition>

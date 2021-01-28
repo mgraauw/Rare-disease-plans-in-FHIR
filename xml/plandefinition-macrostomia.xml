@@ -60,4 +60,8 @@
          </coding>
       </addresses>
    </goal>
+   <action>
+      <title value="Questionnaire for Macrostomia"/>
+      <definitionUri value="questionnaire-macrostomia"/>
+   </action>
 </PlanDefinition>

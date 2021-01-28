@@ -104,4 +104,8 @@
       <title value="Measurement Lipase [Enzymatic activity/volume] in Serum or Plasma"/>
       <definitionUri value="activity-definition-loinc-3040-3"/>
    </action>
+   <action>
+      <title value="Questionnaire for Exocriene pancreasinsufficiëntie"/>
+      <definitionUri value="questionnaire-exocriene_pancreasinsufficientie"/>
+   </action>
 </PlanDefinition>

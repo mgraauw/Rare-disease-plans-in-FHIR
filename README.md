@@ -29,8 +29,10 @@ Diseases are also associated with ICF impairments in functioning (b.xxx codes) o
 The condition plans are abstract plans, not yet bound to a particular patient.
 
 The mapping from data model to FHIR resource types is as follows:
-| Data model    | Are           | Coding  |
+| Data model    | FHIR resource type | Coding  |
 | ------------- |-------------| -----|
 | Rare Condition | PlanDefinition | Orpha, Snomed CT, ICD-10 |
-| Disease | PlanDefinition | Orpha, Snomed CT, ICD-10 |
-| zebra stripes | are neat      |    $1 |
+| Disease | PlanDefinition | Snomed CT, ICD-10 |
+| Symptom (only lab tests now) | ActivityDefintion, ObservationDefinition | LOINC |
+| Medication  | ActivityDefintion with product | ATC |
+| Function, Participation | Questionnaire | ICF |

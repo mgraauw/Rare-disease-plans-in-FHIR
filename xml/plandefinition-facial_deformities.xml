@@ -60,4 +60,8 @@
          </coding>
       </addresses>
    </goal>
+   <action>
+      <title value="Questionnaire for Facial deformities"/>
+      <definitionUri value="questionnaire-facial_deformities"/>
+   </action>
 </PlanDefinition>

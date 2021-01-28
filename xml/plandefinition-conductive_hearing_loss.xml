@@ -60,4 +60,8 @@
          </coding>
       </addresses>
    </goal>
+   <action>
+      <title value="Questionnaire for Conductive hearing loss"/>
+      <definitionUri value="questionnaire-conductive_hearing_loss"/>
+   </action>
 </PlanDefinition>

@@ -60,4 +60,8 @@
          </coding>
       </addresses>
    </goal>
+   <action>
+      <title value="Questionnaire for Aural Atresia"/>
+      <definitionUri value="questionnaire-aural_atresia"/>
+   </action>
 </PlanDefinition>
