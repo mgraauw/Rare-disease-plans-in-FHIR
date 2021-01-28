@@ -1,0 +1,1 @@
+{"resourceType":"ObservationDefinition","id":"observation-definition-loinc-3040-3","text":{"status":"generated","div":"<div xmlns=\"http://www.w3.org/1999/xhtml\">Observation for Lipase [Enzymatic activity/volume] in Serum or Plasma</div>"},"code":{"coding":[{"system":"http://loinc.org","code":"3040-3","display":"Lipase [Enzymatic activity/volume] in Serum or Plasma"}]}}

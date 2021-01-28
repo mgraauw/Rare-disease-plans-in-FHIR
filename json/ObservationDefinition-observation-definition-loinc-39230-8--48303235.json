@@ -1,0 +1,1 @@
+{"resourceType":"ObservationDefinition","id":"observation-definition-loinc-39230-8","text":{"status":"generated","div":"<div xmlns=\"http://www.w3.org/1999/xhtml\">Observation for Sickle cell screen test status CPHS</div>"},"code":{"coding":[{"system":"http://loinc.org","code":"39230-8","display":"Sickle cell screen test status CPHS"}]}}

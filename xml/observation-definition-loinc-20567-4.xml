@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObservationDefinition xmlns="http://hl7.org/fhir">
+   <id value="observation-definition-loinc-20567-4"/>
+   <text>
+      <status value="generated"/>
+      <div xmlns="http://www.w3.org/1999/xhtml">Observation for Ferritin [Mass/volume] in Serum or Plasma by Immunoassay</div>
+   </text>
+   <code>
+      <coding>
+         <system value="http://loinc.org"/>
+         <code value="20567-4"/>
+         <display value="Ferritin [Mass/volume] in Serum or Plasma by Immunoassay"/>
+      </coding>
+   </code>
+</ObservationDefinition>

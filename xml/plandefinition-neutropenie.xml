@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PlanDefinition xmlns="http://hl7.org/fhir">
+   <id value="disease-neutropenie"/>
+   <language value="nl-NL"/>
+   <text>
+      <status value="empty"/>
+      <div xmlns="http://www.w3.org/1999/xhtml"> TODO </div>
+   </text>
+   <url value="http://rarecare.world/PlanDefinition/neutropenie"/>
+   <identifier>
+      <use value="official"/>
+      <value value="neutropenie-plan"/>
+   </identifier>
+   <version value="0.1"/>
+   <title value="Neutropenie Management"/>
+   <type>
+      <coding>
+         <system value="http://terminology.hl7.org/CodeSystem/plan-definition-type"/>
+         <code value="clinical-protocol"/>
+         <display value="Clinical Protocol"/>
+      </coding>
+   </type>
+   <status value="draft"/>
+   <subjectCodeableConcept>
+      <coding>
+         <system value="http://hl7.org/fhir/resource-types"/>
+         <code value="Patient"/>
+         <display value="Patient"/>
+      </coding>
+   </subjectCodeableConcept>
+   <date value="2021-01-28"/>
+   <publisher value="Stichting Rare Care World"/>
+   <contact>
+      <telecom>
+         <system value="url"/>
+         <value value="https://rarecare.world"/>
+      </telecom>
+   </contact>
+   <description value="Neutropenie personal management plan."/>
+   <topic>
+      <coding>
+         <system value="http://terminology.hl7.org/CodeSystem/definition-topic"/>
+         <code value="treatment"/>
+         <display value="Treatment"/>
+      </coding>
+   </topic>
+   <relatedArtifact>
+      <type value="documentation"/>
+      <url value="https://rarecare.world/disease/neutropenie"/>
+   </relatedArtifact>
+   <goal>
+      <description>
+         <text value="Neutropenie management"/>
+      </description>
+      <addresses>
+         <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="303011007"/>
+            <display value="Neutropenic disorder (disorder)"/>
+         </coding>
+      </addresses>
+   </goal>
+   <action>
+      <title value="Measurement Hemoglobin [Moles/volume] in Blood"/>
+      <definitionUri value="activity-definition-loinc-59260-0"/>
+   </action>
+   <action>
+      <title value="Measurement Neutrophils [#/volume] in Blood by Automated count"/>
+      <definitionUri value="activity-definition-loinc-751-8"/>
+   </action>
+   <action>
+      <title value="Measurement Hemoglobin [Mass/volume] in Blood"/>
+      <definitionUri value="activity-definition-loinc-718-7"/>
+   </action>
+   <action>
+      <title value="Measurement Hemoglobin F [Mass/volume] in Blood"/>
+      <definitionUri value="activity-definition-loinc-53857-9"/>
+   </action>
+   <action>
+      <title value="Measurement Hematocrit [Volume Fraction] of Blood by Automated count"/>
+      <definitionUri value="activity-definition-loinc-4544-3"/>
+   </action>
+   <action>
+      <title value="Measurement Reticulocytes [#/volume] in Blood by Automated count"/>
+      <definitionUri value="activity-definition-loinc-60474-4"/>
+   </action>
+   <action>
+      <title value="Measurement Reticulocytes/100 erythrocytes in Blood by Automated count"/>
+      <definitionUri value="activity-definition-loinc-17849-1"/>
+   </action>
+   <action>
+      <title value="Measurement Leukocytes [#/volume] in Blood by Automated count"/>
+      <definitionUri value="activity-definition-loinc-6690-2"/>
+   </action>
+   <action>
+      <title value="Measurement Iron [Moles/volume] in Serum or Plasma"/>
+      <definitionUri value="activity-definition-loinc-14798-3"/>
+   </action>
+   <action>
+      <title value="Measurement Folate [Moles/volume] in Serum or Plasma"/>
+      <definitionUri value="activity-definition-loinc-14732-2"/>
+   </action>
+   <action>
+      <title value="Measurement Cobalamin (Vitamin B12) [Moles/volume] in Serum or Plasma"/>
+      <definitionUri value="activity-definition-loinc-14685-2"/>
+   </action>
+   <action>
+      <title value="Measurement IgG [Mass/volume] in Serum or Plasma"/>
+      <definitionUri value="activity-definition-loinc-2465-3"/>
+   </action>
+   <action>
+      <title value="Measurement IgA [Mass/volume] in Serum or Plasma"/>
+      <definitionUri value="activity-definition-loinc-2458-8"/>
+   </action>
+   <action>
+      <title value="Measurement IgM [Mass/volume] in Serum or Plasma"/>
+      <definitionUri value="activity-definition-loinc-2472-9"/>
+   </action>
+</PlanDefinition>

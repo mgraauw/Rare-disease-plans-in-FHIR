@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PlanDefinition xmlns="http://hl7.org/fhir">
+   <id value="rare-condition-shwachman-diamond-syndrome"/>
+   <text>
+      <status value="empty"/>
+      <div xmlns="http://www.w3.org/1999/xhtml"> TODO </div>
+   </text>
+   <url value="http://rarecare.world/PlanDefinition/shwachman-diamond-syndrome"/>
+   <identifier>
+      <use value="official"/>
+      <value value="shwachman-diamond-syndrome-plan"/>
+   </identifier>
+   <version value="0.1"/>
+   <title value="Shwachman Diamond Syndrome Management"/>
+   <type>
+      <coding>
+         <system value="http://terminology.hl7.org/CodeSystem/plan-definition-type"/>
+         <code value="clinical-protocol"/>
+         <display value="Clinical Protocol"/>
+      </coding>
+   </type>
+   <status value="draft"/>
+   <subjectCodeableConcept>
+      <coding>
+         <system value="http://hl7.org/fhir/resource-types"/>
+         <code value="Patient"/>
+         <display value="Patient"/>
+      </coding>
+   </subjectCodeableConcept>
+   <date value="2021-01-14"/>
+   <publisher value="Stichting Rare Care World"/>
+   <contact>
+      <telecom>
+         <system value="url"/>
+         <value value="https://rarecare.world"/>
+      </telecom>
+   </contact>
+   <description value="Shwachman Diamond Syndrome personal management plan."/>
+   <!-- PlanDefinition.useContext
+      The content was developed with a focus and intent of supporting the contexts that are listed. These contexts may be general categories (gender, age, ...) 
+      or may be references to specific programs (insurance plans, studies, ...) and may be used to assist with indexing and searching for appropriate plan 
+      definition instances. 
+   
+   Evt. gebruiken voor inderdaad leeftijd etc. -->
+   <purpose value="Doel van het plan"/>
+   <topic>
+      <coding>
+         <system value="http://terminology.hl7.org/CodeSystem/definition-topic"/>
+         <code value="treatment"/>
+         <display value="Treatment"/>
+      </coding>
+   </topic>
+   <relatedArtifact>
+      <type value="justification"/>
+      <url value="https://rarecare.world/general-medical-guideline/shwachman-diamond-syndrome"/>
+   </relatedArtifact>
+   <relatedArtifact>
+      <type value="justification"/>
+      <url value="https://rarecare.world/patient-organisation/shwachman-syndrome-support-holland"/>
+   </relatedArtifact>
+   <goal>
+      <description>
+         <text value="Shwachman Diamond Syndrome management"/>
+      </description>
+      <addresses>
+         <coding>
+            <system value="http://www.orpha.net"/>
+            <code value="ORPHA:811"/>
+            <display value="Shwachman-Diamond syndrome"/>
+         </coding>
+      </addresses>
+   </goal>
+   <action>
+      <title value="Neutropenia"/>
+      <definitionCanonical value="http://rarecare.world/PlanDefinition/neutropenia"/>
+   </action>
+</PlanDefinition>

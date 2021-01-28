@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PlanDefinition xmlns="http://hl7.org/fhir">
+   <id value="disease-neutropenia"/>
+   <text>
+      <status value="empty"/>
+      <div xmlns="http://www.w3.org/1999/xhtml"> TODO </div>
+   </text>
+   <url value="http://rarecare.world/PlanDefinition/neutropenia"/>
+   <version value="0.1"/>
+   <title value="Neutropenia Management"/>
+   <type>
+      <coding>
+         <system value="http://terminology.hl7.org/CodeSystem/plan-definition-type"/>
+         <code value="clinical-protocol"/>
+         <display value="Clinical Protocol"/>
+      </coding>
+   </type>
+   <status value="draft"/>
+   <subjectCodeableConcept>
+      <coding>
+         <system value="http://hl7.org/fhir/resource-types"/>
+         <code value="Patient"/>
+         <display value="Patient"/>
+      </coding>
+   </subjectCodeableConcept>
+   <date value="2021-01-14"/>
+   <publisher value="Stichting Rare Care World"/>
+   <contact>
+      <telecom>
+         <system value="url"/>
+         <value value="https://rarecare.world"/>
+      </telecom>
+   </contact>
+   <description value="Neutropenia management plan."/>
+   <topic>
+      <coding>
+         <system value="http://terminology.hl7.org/CodeSystem/definition-topic"/>
+         <code value="assessment"/>
+         <display value="Assessment"/>
+      </coding>
+   </topic>
+   <relatedArtifact>
+      <type value="documentation"/>
+      <url value="https://rarecare.world/disease/neutropenia"/>
+   </relatedArtifact>
+   <goal>
+      <description>
+         <text value="Neutropenia management"/>
+      </description>
+      <addresses>
+         <coding>
+            <system value="http://hl7.org/fhir/sid/icd-10"/>
+            <code value="D70.9"/>
+            <display value="Neutropenia, unspecified"/>
+         </coding>
+      </addresses>
+   </goal>
+   <action>
+      <title value="Retinol [Moles/volume] in Serum or Plasma"/>
+      <definitionUri value="activity-definition-14905-4"/>
+   </action>
+</PlanDefinition>

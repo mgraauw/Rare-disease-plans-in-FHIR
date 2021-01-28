@@ -1,0 +1,1 @@
+{"resourceType":"ObservationDefinition","id":"observation-definition-loinc-3066-8","text":{"status":"generated","div":"<div xmlns=\"http://www.w3.org/1999/xhtml\">Observation for Trypsinogen [Mass/volume] in Serum or Plasma</div>"},"code":{"coding":[{"system":"http://loinc.org","code":"3066-8","display":"Trypsinogen [Mass/volume] in Serum or Plasma"}]}}

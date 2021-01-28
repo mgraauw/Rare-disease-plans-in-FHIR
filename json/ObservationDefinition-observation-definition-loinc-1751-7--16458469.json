@@ -1,0 +1,1 @@
+{"resourceType":"ObservationDefinition","id":"observation-definition-loinc-1751-7","text":{"status":"generated","div":"<div xmlns=\"http://www.w3.org/1999/xhtml\">Observation for Albumin [Mass/volume] in Serum or Plasma</div>"},"code":{"coding":[{"system":"http://loinc.org","code":"1751-7","display":"Albumin [Mass/volume] in Serum or Plasma"}]}}

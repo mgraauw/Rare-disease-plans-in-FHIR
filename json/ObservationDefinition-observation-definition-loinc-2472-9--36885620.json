@@ -1,0 +1,1 @@
+{"resourceType":"ObservationDefinition","id":"observation-definition-loinc-2472-9","text":{"status":"generated","div":"<div xmlns=\"http://www.w3.org/1999/xhtml\">Observation for IgM [Mass/volume] in Serum or Plasma</div>"},"code":{"coding":[{"system":"http://loinc.org","code":"2472-9","display":"IgM [Mass/volume] in Serum or Plasma"}]}}

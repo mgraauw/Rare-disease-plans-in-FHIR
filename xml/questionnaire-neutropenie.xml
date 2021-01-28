@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Questionnaire xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+               xmlns="http://hl7.org/fhir">
+   <id value="questionnaire-neutropenie"/>
+   <text>
+      <status value="generated"/>
+      <div xmlns="http://www.w3.org/1999/xhtml">Questionnaire for Neutropenie</div>
+   </text>
+   <name value="questionnaire-neutropenie"/>
+   <title value="Vragenlijst voor Neutropenie"/>
+   <status value="draft"/>
+   <subjectType value="Patient"/>
+   <date value="2021-01-28"/>
+   <item>
+      <linkId value="neutropenie"/>
+      <text value="Neutropenie"/>
+      <type value="group"/>
+      <required value="true"/>
+      <item>
+         <linkId value="b43501"/>
+         <text value="Niet-specifieke immuunrespons"/>
+         <type value="choice"/>
+         <required value="false"/>
+         <answerOption>
+            <valueCoding>
+               <system value="http://hl7.org/fhir/sid/icf-nl"/>
+               <code value="b43501.0"/>
+               <display value="Geen stoornis (0-5%)"/>
+            </valueCoding>
+         </answerOption>
+         <answerOption>
+            <valueCoding>
+               <system value="http://hl7.org/fhir/sid/icf-nl"/>
+               <code value="b43501.1"/>
+               <display value="Lichte stoornis (5-24%)"/>
+            </valueCoding>
+         </answerOption>
+         <answerOption>
+            <valueCoding>
+               <system value="http://hl7.org/fhir/sid/icf-nl"/>
+               <code value="b43501.2"/>
+               <display value="Matige stoornis (25-49%)"/>
+            </valueCoding>
+         </answerOption>
+         <answerOption>
+            <valueCoding>
+               <system value="http://hl7.org/fhir/sid/icf-nl"/>
+               <code value="b43501.3"/>
+               <display value="Ernstige stoornis (50-95%)"/>
+            </valueCoding>
+         </answerOption>
+         <answerOption>
+            <valueCoding>
+               <system value="http://hl7.org/fhir/sid/icf-nl"/>
+               <code value="b43501.4"/>
+               <display value="Volledige stoornis (96-100%)"/>
+            </valueCoding>
+         </answerOption>
+         <answerOption>
+            <valueCoding>
+               <system value="http://hl7.org/fhir/sid/icf-nl"/>
+               <code value="b43501.8"/>
+               <display value="niet gespecificeerd"/>
+            </valueCoding>
+         </answerOption>
+         <answerOption>
+            <valueCoding>
+               <system value="http://hl7.org/fhir/sid/icf-nl"/>
+               <code value="b43501.9"/>
+               <display value="niet van toepassing"/>
+            </valueCoding>
+         </answerOption>
+      </item>
+   </item>
+</Questionnaire>

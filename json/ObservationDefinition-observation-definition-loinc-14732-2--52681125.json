@@ -1,0 +1,1 @@
+{"resourceType":"ObservationDefinition","id":"observation-definition-loinc-14732-2","text":{"status":"generated","div":"<div xmlns=\"http://www.w3.org/1999/xhtml\">Observation for Folate [Moles/volume] in Serum or Plasma</div>"},"code":{"coding":[{"system":"http://loinc.org","code":"14732-2","display":"Folate [Moles/volume] in Serum or Plasma"}]}}

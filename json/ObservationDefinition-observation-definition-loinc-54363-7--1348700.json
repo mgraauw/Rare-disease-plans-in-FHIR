@@ -1,0 +1,1 @@
+{"resourceType":"ObservationDefinition","id":"observation-definition-loinc-54363-7","text":{"status":"generated","div":"<div xmlns=\"http://www.w3.org/1999/xhtml\">Observation for Bilirubin.total [Moles/volume] in Blood</div>"},"code":{"coding":[{"system":"http://loinc.org","code":"54363-7","display":"Bilirubin.total [Moles/volume] in Blood"}]}}

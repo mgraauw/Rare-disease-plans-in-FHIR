@@ -1,0 +1,1 @@
+{"resourceType":"ObservationDefinition","id":"observation-definition-loinc-34714-6","text":{"status":"generated","div":"<div xmlns=\"http://www.w3.org/1999/xhtml\">Observation for INR in Blood by Coagulation assay</div>"},"code":{"coding":[{"system":"http://loinc.org","code":"34714-6","display":"INR in Blood by Coagulation assay"}]}}

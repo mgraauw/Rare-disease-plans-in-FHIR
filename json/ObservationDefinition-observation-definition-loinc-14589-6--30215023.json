@@ -1,0 +1,1 @@
+{"resourceType":"ObservationDefinition","id":"observation-definition-loinc-14589-6","text":{"status":"generated","div":"<div xmlns=\"http://www.w3.org/1999/xhtml\">Observation for Amylase isoenzymes [Interpretation] in Serum or Plasma</div>"},"code":{"coding":[{"system":"http://loinc.org","code":"14589-6","display":"Amylase isoenzymes [Interpretation] in Serum or Plasma"}]}}

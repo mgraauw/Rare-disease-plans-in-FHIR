@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObservationDefinition xmlns="http://hl7.org/fhir">
+   <id value="observation-definition-loinc-34714-6"/>
+   <text>
+      <status value="generated"/>
+      <div xmlns="http://www.w3.org/1999/xhtml">Observation for INR in Blood by Coagulation assay</div>
+   </text>
+   <code>
+      <coding>
+         <system value="http://loinc.org"/>
+         <code value="34714-6"/>
+         <display value="INR in Blood by Coagulation assay"/>
+      </coding>
+   </code>
+</ObservationDefinition>

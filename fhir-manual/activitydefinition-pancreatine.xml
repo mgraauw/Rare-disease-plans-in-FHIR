@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ActivityDefinition xmlns="http://hl7.org/fhir">
+   <id value="pancreatine"/>
+   <text>
+      <status value="generated"/>
+      <div xmlns="http://www.w3.org/1999/xhtml"> TODO </div>
+   </text>
+   <!-- Betere url vinden -->
+   <url value="https://rarecare.world/751-8"/>
+   <status value="draft"/>
+   <description value="Neutrophils in blood measurement"/>
+   <kind value="MedicationRequest"/>
+   <code>
+      <text value="Pancreatine"></text>
+   </code>
+   <productCodeableConcept>
+      <coding>
+         <system value="http://www.whocc.no/atc"/>
+         <code value="A09AA02"/>
+         <display value="ULTI-ENZYMEN (LIPASE, PROTEASE, ENZ)"/>
+      </coding>
+   </productCodeableConcept>
+</ActivityDefinition>

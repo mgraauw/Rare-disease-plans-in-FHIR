@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ActivityDefinition xmlns="http://hl7.org/fhir">
+   <id value="activity-definition-loinc-34714-6"/>
+   <text>
+      <status value="generated"/>
+      <div xmlns="http://www.w3.org/1999/xhtml">Activity Definition for INR in Blood by Coagulation assay</div>
+   </text>
+   <url value="https://rarecare.world/34714-6"/>
+   <status value="draft"/>
+   <description value="INR in Blood by Coagulation assay Measurement"/>
+   <kind value="ServiceRequest"/>
+   <code>
+      <text value="INR in Blood by Coagulation assay"/>
+   </code>
+   <observationResultRequirement>
+      <reference value="observation-definition-34714-6"/>
+   </observationResultRequirement>
+</ActivityDefinition>

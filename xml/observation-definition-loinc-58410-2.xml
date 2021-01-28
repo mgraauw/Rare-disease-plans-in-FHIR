@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObservationDefinition xmlns="http://hl7.org/fhir">
+   <id value="observation-definition-loinc-58410-2"/>
+   <text>
+      <status value="generated"/>
+      <div xmlns="http://www.w3.org/1999/xhtml">Observation for Complete blood count (hemogram) panel - Blood by Automated count</div>
+   </text>
+   <code>
+      <coding>
+         <system value="http://loinc.org"/>
+         <code value="58410-2"/>
+         <display value="Complete blood count (hemogram) panel - Blood by Automated count"/>
+      </coding>
+   </code>
+</ObservationDefinition>

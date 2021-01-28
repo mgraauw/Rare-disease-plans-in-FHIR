@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PlanDefinition xmlns="http://hl7.org/fhir">
+   <id value="disease-ontwikkelingsstoornis"/>
+   <language value="nl-NL"/>
+   <text>
+      <status value="empty"/>
+      <div xmlns="http://www.w3.org/1999/xhtml"> TODO </div>
+   </text>
+   <url value="http://rarecare.world/PlanDefinition/ontwikkelingsstoornis"/>
+   <identifier>
+      <use value="official"/>
+      <value value="ontwikkelingsstoornis-plan"/>
+   </identifier>
+   <version value="0.1"/>
+   <title value="Ontwikkelingsstoornis Management"/>
+   <type>
+      <coding>
+         <system value="http://terminology.hl7.org/CodeSystem/plan-definition-type"/>
+         <code value="clinical-protocol"/>
+         <display value="Clinical Protocol"/>
+      </coding>
+   </type>
+   <status value="draft"/>
+   <subjectCodeableConcept>
+      <coding>
+         <system value="http://hl7.org/fhir/resource-types"/>
+         <code value="Patient"/>
+         <display value="Patient"/>
+      </coding>
+   </subjectCodeableConcept>
+   <date value="2021-01-28"/>
+   <publisher value="Stichting Rare Care World"/>
+   <contact>
+      <telecom>
+         <system value="url"/>
+         <value value="https://rarecare.world"/>
+      </telecom>
+   </contact>
+   <description value="Ontwikkelingsstoornis personal management plan."/>
+   <topic>
+      <coding>
+         <system value="http://terminology.hl7.org/CodeSystem/definition-topic"/>
+         <code value="treatment"/>
+         <display value="Treatment"/>
+      </coding>
+   </topic>
+   <relatedArtifact>
+      <type value="documentation"/>
+      <url value="https://rarecare.world/disease/ontwikkelingsstoornis"/>
+   </relatedArtifact>
+   <goal>
+      <description>
+         <text value="Ontwikkelingsstoornis management"/>
+      </description>
+      <addresses>
+         <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="716710007"/>
+            <display value="Early childhood developmental disability (disorder)"/>
+         </coding>
+      </addresses>
+   </goal>
+   <action>
+      <title value="Measurement Birth weight Measured"/>
+      <definitionUri value="activity-definition-loinc-8339-4"/>
+   </action>
+   <action>
+      <title value="Measurement Body height Measured"/>
+      <definitionUri value="activity-definition-loinc-3137-7"/>
+   </action>
+</PlanDefinition>

@@ -1,0 +1,1 @@
+{"resourceType":"ObservationDefinition","id":"observation-definition-loinc-14905-4","text":{"status":"generated","div":"<div xmlns=\"http://www.w3.org/1999/xhtml\">Observation for Retinol [Moles/volume] in Serum or Plasma</div>"},"code":{"coding":[{"system":"http://loinc.org","code":"14905-4","display":"Retinol [Moles/volume] in Serum or Plasma"}]}}

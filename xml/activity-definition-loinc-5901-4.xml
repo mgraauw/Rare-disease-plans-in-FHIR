@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ActivityDefinition xmlns="http://hl7.org/fhir">
+   <id value="activity-definition-loinc-5901-4"/>
+   <text>
+      <status value="generated"/>
+      <div xmlns="http://www.w3.org/1999/xhtml">Activity Definition for Prothrombin time (PT) in Control Platelet poor plasma by Coagulation assay</div>
+   </text>
+   <url value="https://rarecare.world/5901-4"/>
+   <status value="draft"/>
+   <description value="Prothrombin time (PT) in Control Platelet poor plasma by Coagulation assay Measurement"/>
+   <kind value="ServiceRequest"/>
+   <code>
+      <text value="Prothrombin time (PT) in Control Platelet poor plasma by Coagulation assay"/>
+   </code>
+   <observationResultRequirement>
+      <reference value="observation-definition-5901-4"/>
+   </observationResultRequirement>
+</ActivityDefinition>

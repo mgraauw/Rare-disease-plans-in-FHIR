@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ActivityDefinition xmlns="http://hl7.org/fhir">
+   <id value="activity-definition-atc-V03AC03"/>
+   <text>
+      <status value="generated"/>
+      <div xmlns="http://www.w3.org/1999/xhtml">Activity Definition for DEFERASIROX</div>
+   </text>
+   <url value="https://rarecare.world/V03AC03"/>
+   <status value="draft"/>
+   <description value="DEFERASIROX Medication"/>
+   <kind value="MedicationRequest"/>
+   <code>
+      <text value="DEFERASIROX"/>
+   </code>
+   <productCodeableConcept>
+      <coding>
+         <system value="http://www.whocc.no/atc"/>
+         <code value="V03AC03"/>
+         <display value="DEFERASIROX"/>
+      </coding>
+   </productCodeableConcept>
+</ActivityDefinition>

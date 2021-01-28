@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ActivityDefinition xmlns="http://hl7.org/fhir">
+   <id value="activity-definition-atc-V03AC02"/>
+   <text>
+      <status value="generated"/>
+      <div xmlns="http://www.w3.org/1999/xhtml">Activity Definition for DEFERIPRON</div>
+   </text>
+   <url value="https://rarecare.world/V03AC02"/>
+   <status value="draft"/>
+   <description value="DEFERIPRON Medication"/>
+   <kind value="MedicationRequest"/>
+   <code>
+      <text value="DEFERIPRON"/>
+   </code>
+   <productCodeableConcept>
+      <coding>
+         <system value="http://www.whocc.no/atc"/>
+         <code value="V03AC02"/>
+         <display value="DEFERIPRON"/>
+      </coding>
+   </productCodeableConcept>
+</ActivityDefinition>

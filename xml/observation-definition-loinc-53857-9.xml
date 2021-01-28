@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObservationDefinition xmlns="http://hl7.org/fhir">
+   <id value="observation-definition-loinc-53857-9"/>
+   <text>
+      <status value="generated"/>
+      <div xmlns="http://www.w3.org/1999/xhtml">Observation for Hemoglobin F [Mass/volume] in Blood</div>
+   </text>
+   <code>
+      <coding>
+         <system value="http://loinc.org"/>
+         <code value="53857-9"/>
+         <display value="Hemoglobin F [Mass/volume] in Blood"/>
+      </coding>
+   </code>
+</ObservationDefinition>

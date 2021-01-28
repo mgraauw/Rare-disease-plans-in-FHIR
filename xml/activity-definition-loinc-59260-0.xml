@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ActivityDefinition xmlns="http://hl7.org/fhir">
+   <id value="activity-definition-loinc-59260-0"/>
+   <text>
+      <status value="generated"/>
+      <div xmlns="http://www.w3.org/1999/xhtml">Activity Definition for Hemoglobin [Moles/volume] in Blood</div>
+   </text>
+   <url value="https://rarecare.world/59260-0"/>
+   <status value="draft"/>
+   <description value="Hemoglobin [Moles/volume] in Blood Measurement"/>
+   <kind value="ServiceRequest"/>
+   <code>
+      <text value="Hemoglobin [Moles/volume] in Blood"/>
+   </code>
+   <observationResultRequirement>
+      <reference value="observation-definition-59260-0"/>
+   </observationResultRequirement>
+</ActivityDefinition>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Questionnaire xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+               xmlns="http://hl7.org/fhir">
+   <id value="questionnaire-iris_coloboma"/>
+   <text>
+      <status value="generated"/>
+      <div xmlns="http://www.w3.org/1999/xhtml">Questionnaire for Iris Coloboma</div>
+   </text>
+   <name value="questionnaire-iris_coloboma"/>
+   <title value="Vragenlijst voor Iris Coloboma"/>
+   <status value="draft"/>
+   <subjectType value="Patient"/>
+   <date value="2021-01-28"/>
+   <item>
+      <linkId value="iris_coloboma"/>
+      <text value="Iris Coloboma"/>
+      <type value="group"/>
+      <required value="true"/>
+      <item>
+         <linkId value="b2159"/>
+         <text value="Functies van aan oog verwante structuren, niet gespecificeerd"/>
+         <type value="choice"/>
+         <required value="false"/>
+         <answerOption>
+            <valueCoding>
+               <system value="http://hl7.org/fhir/sid/icf-nl"/>
+               <code value="b2159.0"/>
+               <display value="Geen stoornis (0-5%)"/>
+            </valueCoding>
+         </answerOption>
+         <answerOption>
+            <valueCoding>
+               <system value="http://hl7.org/fhir/sid/icf-nl"/>
+               <code value="b2159.1"/>
+               <display value="Lichte stoornis (5-24%)"/>
+            </valueCoding>
+         </answerOption>
+         <answerOption>
+            <valueCoding>
+               <system value="http://hl7.org/fhir/sid/icf-nl"/>
+               <code value="b2159.2"/>
+               <display value="Matige stoornis (25-49%)"/>
+            </valueCoding>
+         </answerOption>
+         <answerOption>
+            <valueCoding>
+               <system value="http://hl7.org/fhir/sid/icf-nl"/>
+               <code value="b2159.3"/>
+               <display value="Ernstige stoornis (50-95%)"/>
+            </valueCoding>
+         </answerOption>
+         <answerOption>
+            <valueCoding>
+               <system value="http://hl7.org/fhir/sid/icf-nl"/>
+               <code value="b2159.4"/>
+               <display value="Volledige stoornis (96-100%)"/>
+            </valueCoding>
+         </answerOption>
+         <answerOption>
+            <valueCoding>
+               <system value="http://hl7.org/fhir/sid/icf-nl"/>
+               <code value="b2159.8"/>
+               <display value="niet gespecificeerd"/>
+            </valueCoding>
+         </answerOption>
+         <answerOption>
+            <valueCoding>
+               <system value="http://hl7.org/fhir/sid/icf-nl"/>
+               <code value="b2159.9"/>
+               <display value="niet van toepassing"/>
+            </valueCoding>
+         </answerOption>
+      </item>
+   </item>
+</Questionnaire>

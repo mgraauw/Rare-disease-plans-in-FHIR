@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObservationDefinition xmlns="http://hl7.org/fhir">
+   <id value="observation-definition-loinc-54363-7"/>
+   <text>
+      <status value="generated"/>
+      <div xmlns="http://www.w3.org/1999/xhtml">Observation for Bilirubin.total [Moles/volume] in Blood</div>
+   </text>
+   <code>
+      <coding>
+         <system value="http://loinc.org"/>
+         <code value="54363-7"/>
+         <display value="Bilirubin.total [Moles/volume] in Blood"/>
+      </coding>
+   </code>
+</ObservationDefinition>

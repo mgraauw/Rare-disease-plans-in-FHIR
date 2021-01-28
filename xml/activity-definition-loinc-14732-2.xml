@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ActivityDefinition xmlns="http://hl7.org/fhir">
+   <id value="activity-definition-loinc-14732-2"/>
+   <text>
+      <status value="generated"/>
+      <div xmlns="http://www.w3.org/1999/xhtml">Activity Definition for Folate [Moles/volume] in Serum or Plasma</div>
+   </text>
+   <url value="https://rarecare.world/14732-2"/>
+   <status value="draft"/>
+   <description value="Folate [Moles/volume] in Serum or Plasma Measurement"/>
+   <kind value="ServiceRequest"/>
+   <code>
+      <text value="Folate [Moles/volume] in Serum or Plasma"/>
+   </code>
+   <observationResultRequirement>
+      <reference value="observation-definition-14732-2"/>
+   </observationResultRequirement>
+</ActivityDefinition>

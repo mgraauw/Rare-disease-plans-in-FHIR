@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Questionnaire xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+               xmlns="http://hl7.org/fhir">
+   <id value="questionnaire-facial_deformities"/>
+   <text>
+      <status value="generated"/>
+      <div xmlns="http://www.w3.org/1999/xhtml">Questionnaire for Facial deformities</div>
+   </text>
+   <name value="questionnaire-facial_deformities"/>
+   <title value="Vragenlijst voor Facial deformities"/>
+   <status value="draft"/>
+   <subjectType value="Patient"/>
+   <date value="2021-01-28"/>
+   <item>
+      <linkId value="facial_deformities"/>
+      <text value="Facial deformities"/>
+      <type value="group"/>
+      <required value="true"/>
+      <item>
+         <linkId value="b2150"/>
+         <text value="Functies van interne oogspieren"/>
+         <type value="choice"/>
+         <required value="false"/>
+         <answerOption>
+            <valueCoding>
+               <system value="http://hl7.org/fhir/sid/icf-nl"/>
+               <code value="b2150.0"/>
+               <display value="Geen stoornis (0-5%)"/>
+            </valueCoding>
+         </answerOption>
+         <answerOption>
+            <valueCoding>
+               <system value="http://hl7.org/fhir/sid/icf-nl"/>
+               <code value="b2150.1"/>
+               <display value="Lichte stoornis (5-24%)"/>
+            </valueCoding>
+         </answerOption>
+         <answerOption>
+            <valueCoding>
+               <system value="http://hl7.org/fhir/sid/icf-nl"/>
+               <code value="b2150.2"/>
+               <display value="Matige stoornis (25-49%)"/>
+            </valueCoding>
+         </answerOption>
+         <answerOption>
+            <valueCoding>
+               <system value="http://hl7.org/fhir/sid/icf-nl"/>
+               <code value="b2150.3"/>
+               <display value="Ernstige stoornis (50-95%)"/>
+            </valueCoding>
+         </answerOption>
+         <answerOption>
+            <valueCoding>
+               <system value="http://hl7.org/fhir/sid/icf-nl"/>
+               <code value="b2150.4"/>
+               <display value="Volledige stoornis (96-100%)"/>
+            </valueCoding>
+         </answerOption>
+         <answerOption>
+            <valueCoding>
+               <system value="http://hl7.org/fhir/sid/icf-nl"/>
+               <code value="b2150.8"/>
+               <display value="niet gespecificeerd"/>
+            </valueCoding>
+         </answerOption>
+         <answerOption>
+            <valueCoding>
+               <system value="http://hl7.org/fhir/sid/icf-nl"/>
+               <code value="b2150.9"/>
+               <display value="niet van toepassing"/>
+            </valueCoding>
+         </answerOption>
+      </item>
+      <item>
+         <linkId value="b2151"/>
+         <text value="Functies van ooglid"/>
+         <type value="choice"/>
+         <required value="false"/>
+         <answerOption>
+            <valueCoding>
+               <system value="http://hl7.org/fhir/sid/icf-nl"/>
+               <code value="b2151.0"/>
+               <display value="Geen stoornis (0-5%)"/>
+            </valueCoding>
+         </answerOption>
+         <answerOption>
+            <valueCoding>
+               <system value="http://hl7.org/fhir/sid/icf-nl"/>
+               <code value="b2151.1"/>
+               <display value="Lichte stoornis (5-24%)"/>
+            </valueCoding>
+         </answerOption>
+         <answerOption>
+            <valueCoding>
+               <system value="http://hl7.org/fhir/sid/icf-nl"/>
+               <code value="b2151.2"/>
+               <display value="Matige stoornis (25-49%)"/>
+            </valueCoding>
+         </answerOption>
+         <answerOption>
+            <valueCoding>
+               <system value="http://hl7.org/fhir/sid/icf-nl"/>
+               <code value="b2151.3"/>
+               <display value="Ernstige stoornis (50-95%)"/>
+            </valueCoding>
+         </answerOption>
+         <answerOption>
+            <valueCoding>
+               <system value="http://hl7.org/fhir/sid/icf-nl"/>
+               <code value="b2151.4"/>
+               <display value="Volledige stoornis (96-100%)"/>
+            </valueCoding>
+         </answerOption>
+         <answerOption>
+            <valueCoding>
+               <system value="http://hl7.org/fhir/sid/icf-nl"/>
+               <code value="b2151.8"/>
+               <display value="niet gespecificeerd"/>
+            </valueCoding>
+         </answerOption>
+         <answerOption>
+            <valueCoding>
+               <system value="http://hl7.org/fhir/sid/icf-nl"/>
+               <code value="b2151.9"/>
+               <display value="niet van toepassing"/>
+            </valueCoding>
+         </answerOption>
+      </item>
+      <item>
+         <linkId value="b230"/>
+         <text value="Het waarnemen van de aanwezigheid van geluiden en het onderscheiden van locatie, toonhoogte, luidheid en kwaliteit van geluiden."/>
+         <type value="choice"/>
+         <required value="false"/>
+         <answerOption>
+            <valueCoding>
+               <system value="http://hl7.org/fhir/sid/icf-nl"/>
+               <code value="b230.0"/>
+               <display value="Geen stoornis (0-5%)"/>
+            </valueCoding>
+         </answerOption>
+         <answerOption>
+            <valueCoding>
+               <system value="http://hl7.org/fhir/sid/icf-nl"/>
+               <code value="b230.1"/>
+               <display value="Lichte stoornis (5-24%)"/>
+            </valueCoding>
+         </answerOption>
+         <answerOption>
+            <valueCoding>
+               <system value="http://hl7.org/fhir/sid/icf-nl"/>
+               <code value="b230.2"/>
+               <display value="Matige stoornis (25-49%)"/>
+            </valueCoding>
+         </answerOption>
+         <answerOption>
+            <valueCoding>
+               <system value="http://hl7.org/fhir/sid/icf-nl"/>
+               <code value="b230.3"/>
+               <display value="Ernstige stoornis (50-95%)"/>
+            </valueCoding>
+         </answerOption>
+         <answerOption>
+            <valueCoding>
+               <system value="http://hl7.org/fhir/sid/icf-nl"/>
+               <code value="b230.4"/>
+               <display value="Volledige stoornis (96-100%)"/>
+            </valueCoding>
+         </answerOption>
+         <answerOption>
+            <valueCoding>
+               <system value="http://hl7.org/fhir/sid/icf-nl"/>
+               <code value="b230.8"/>
+               <display value="niet gespecificeerd"/>
+            </valueCoding>
+         </answerOption>
+         <answerOption>
+            <valueCoding>
+               <system value="http://hl7.org/fhir/sid/icf-nl"/>
+               <code value="b230.9"/>
+               <display value="niet van toepassing"/>
+            </valueCoding>
+         </answerOption>
+      </item>
+      <item>
+         <linkId value="b310"/>
+         <text value="Stem"/>
+         <type value="choice"/>
+         <required value="false"/>
+         <answerOption>
+            <valueCoding>
+               <system value="http://hl7.org/fhir/sid/icf-nl"/>
+               <code value="b310.0"/>
+               <display value="Geen stoornis (0-5%)"/>
+            </valueCoding>
+         </answerOption>
+         <answerOption>
+            <valueCoding>
+               <system value="http://hl7.org/fhir/sid/icf-nl"/>
+               <code value="b310.1"/>
+               <display value="Lichte stoornis (5-24%)"/>
+            </valueCoding>
+         </answerOption>
+         <answerOption>
+            <valueCoding>
+               <system value="http://hl7.org/fhir/sid/icf-nl"/>
+               <code value="b310.2"/>
+               <display value="Matige stoornis (25-49%)"/>
+            </valueCoding>
+         </answerOption>
+         <answerOption>
+            <valueCoding>
+               <system value="http://hl7.org/fhir/sid/icf-nl"/>
+               <code value="b310.3"/>
+               <display value="Ernstige stoornis (50-95%)"/>
+            </valueCoding>
+         </answerOption>
+         <answerOption>
+            <valueCoding>
+               <system value="http://hl7.org/fhir/sid/icf-nl"/>
+               <code value="b310.4"/>
+               <display value="Volledige stoornis (96-100%)"/>
+            </valueCoding>
+         </answerOption>
+         <answerOption>
+            <valueCoding>
+               <system value="http://hl7.org/fhir/sid/icf-nl"/>
+               <code value="b310.8"/>
+               <display value="niet gespecificeerd"/>
+            </valueCoding>
+         </answerOption>
+         <answerOption>
+            <valueCoding>
+               <system value="http://hl7.org/fhir/sid/icf-nl"/>
+               <code value="b310.9"/>
+               <display value="niet van toepassing"/>
+            </valueCoding>
+         </answerOption>
+      </item>
+      <item>
+         <linkId value="b2100"/>
+         <text value="Gezichtsscherpte"/>
+         <type value="choice"/>
+         <required value="false"/>
+         <answerOption>
+            <valueCoding>
+               <system value="http://hl7.org/fhir/sid/icf-nl"/>
+               <code value="b2100.0"/>
+               <display value="Geen stoornis (0-5%)"/>
+            </valueCoding>
+         </answerOption>
+         <answerOption>
+            <valueCoding>
+               <system value="http://hl7.org/fhir/sid/icf-nl"/>
+               <code value="b2100.1"/>
+               <display value="Lichte stoornis (5-24%)"/>
+            </valueCoding>
+         </answerOption>
+         <answerOption>
+            <valueCoding>
+               <system value="http://hl7.org/fhir/sid/icf-nl"/>
+               <code value="b2100.2"/>
+               <display value="Matige stoornis (25-49%)"/>
+            </valueCoding>
+         </answerOption>
+         <answerOption>
+            <valueCoding>
+               <system value="http://hl7.org/fhir/sid/icf-nl"/>
+               <code value="b2100.3"/>
+               <display value="Ernstige stoornis (50-95%)"/>
+            </valueCoding>
+         </answerOption>
+         <answerOption>
+            <valueCoding>
+               <system value="http://hl7.org/fhir/sid/icf-nl"/>
+               <code value="b2100.4"/>
+               <display value="Volledige stoornis (96-100%)"/>
+            </valueCoding>
+         </answerOption>
+         <answerOption>
+            <valueCoding>
+               <system value="http://hl7.org/fhir/sid/icf-nl"/>
+               <code value="b2100.8"/>
+               <display value="niet gespecificeerd"/>
+            </valueCoding>
+         </answerOption>
+         <answerOption>
+            <valueCoding>
+               <system value="http://hl7.org/fhir/sid/icf-nl"/>
+               <code value="b2100.9"/>
+               <display value="niet van toepassing"/>
+            </valueCoding>
+         </answerOption>
+      </item>
+      <item>
+         <linkId value="b330"/>
+         <text value="Vloeiendheid en ritme van spreken"/>
+         <type value="choice"/>
+         <required value="false"/>
+         <answerOption>
+            <valueCoding>
+               <system value="http://hl7.org/fhir/sid/icf-nl"/>
+               <code value="b330.0"/>
+               <display value="Geen stoornis (0-5%)"/>
+            </valueCoding>
+         </answerOption>
+         <answerOption>
+            <valueCoding>
+               <system value="http://hl7.org/fhir/sid/icf-nl"/>
+               <code value="b330.1"/>
+               <display value="Lichte stoornis (5-24%)"/>
+            </valueCoding>
+         </answerOption>
+         <answerOption>
+            <valueCoding>
+               <system value="http://hl7.org/fhir/sid/icf-nl"/>
+               <code value="b330.2"/>
+               <display value="Matige stoornis (25-49%)"/>
+            </valueCoding>
+         </answerOption>
+         <answerOption>
+            <valueCoding>
+               <system value="http://hl7.org/fhir/sid/icf-nl"/>
+               <code value="b330.3"/>
+               <display value="Ernstige stoornis (50-95%)"/>
+            </valueCoding>
+         </answerOption>
+         <answerOption>
+            <valueCoding>
+               <system value="http://hl7.org/fhir/sid/icf-nl"/>
+               <code value="b330.4"/>
+               <display value="Volledige stoornis (96-100%)"/>
+            </valueCoding>
+         </answerOption>
+         <answerOption>
+            <valueCoding>
+               <system value="http://hl7.org/fhir/sid/icf-nl"/>
+               <code value="b330.8"/>
+               <display value="niet gespecificeerd"/>
+            </valueCoding>
+         </answerOption>
+         <answerOption>
+            <valueCoding>
+               <system value="http://hl7.org/fhir/sid/icf-nl"/>
+               <code value="b330.9"/>
+               <display value="niet van toepassing"/>
+            </valueCoding>
+         </answerOption>
+      </item>
+   </item>
+</Questionnaire>

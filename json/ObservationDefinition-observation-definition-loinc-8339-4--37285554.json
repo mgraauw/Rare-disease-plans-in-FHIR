@@ -1,0 +1,1 @@
+{"resourceType":"ObservationDefinition","id":"observation-definition-loinc-8339-4","text":{"status":"generated","div":"<div xmlns=\"http://www.w3.org/1999/xhtml\">Observation for Birth weight Measured</div>"},"code":{"coding":[{"system":"http://loinc.org","code":"8339-4","display":"Birth weight Measured"}]}}

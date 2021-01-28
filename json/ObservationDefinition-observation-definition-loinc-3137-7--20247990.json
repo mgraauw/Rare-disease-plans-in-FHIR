@@ -1,0 +1,1 @@
+{"resourceType":"ObservationDefinition","id":"observation-definition-loinc-3137-7","text":{"status":"generated","div":"<div xmlns=\"http://www.w3.org/1999/xhtml\">Observation for Body height Measured</div>"},"code":{"coding":[{"system":"http://loinc.org","code":"3137-7","display":"Body height Measured"}]}}

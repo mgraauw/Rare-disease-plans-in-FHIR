@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PlanDefinition xmlns="http://hl7.org/fhir">
+   <id value="disease-exocriene_pancreasinsufficientie"/>
+   <language value="nl-NL"/>
+   <text>
+      <status value="empty"/>
+      <div xmlns="http://www.w3.org/1999/xhtml"> TODO </div>
+   </text>
+   <url value="http://rarecare.world/PlanDefinition/exocriene_pancreasinsufficientie"/>
+   <identifier>
+      <use value="official"/>
+      <value value="exocriene_pancreasinsufficientie-plan"/>
+   </identifier>
+   <version value="0.1"/>
+   <title value="Exocriene pancreasinsufficiëntie Management"/>
+   <type>
+      <coding>
+         <system value="http://terminology.hl7.org/CodeSystem/plan-definition-type"/>
+         <code value="clinical-protocol"/>
+         <display value="Clinical Protocol"/>
+      </coding>
+   </type>
+   <status value="draft"/>
+   <subjectCodeableConcept>
+      <coding>
+         <system value="http://hl7.org/fhir/resource-types"/>
+         <code value="Patient"/>
+         <display value="Patient"/>
+      </coding>
+   </subjectCodeableConcept>
+   <date value="2021-01-28"/>
+   <publisher value="Stichting Rare Care World"/>
+   <contact>
+      <telecom>
+         <system value="url"/>
+         <value value="https://rarecare.world"/>
+      </telecom>
+   </contact>
+   <description value="Exocriene pancreasinsufficiëntie personal management plan."/>
+   <topic>
+      <coding>
+         <system value="http://terminology.hl7.org/CodeSystem/definition-topic"/>
+         <code value="treatment"/>
+         <display value="Treatment"/>
+      </coding>
+   </topic>
+   <relatedArtifact>
+      <type value="documentation"/>
+      <url value="https://rarecare.world/disease/exocriene_pancreasinsufficientie"/>
+   </relatedArtifact>
+   <goal>
+      <description>
+         <text value="Exocriene pancreasinsufficiëntie management"/>
+      </description>
+      <addresses>
+         <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="47367009"/>
+            <display value="Exocrine pancreatic insufficiency (disorder)"/>
+         </coding>
+      </addresses>
+   </goal>
+   <action>
+      <title value="Medication MULTI-ENZYMEN (LIPASE, PROTEASE, ENZ)"/>
+      <definitionUri value="activity-definition-atc-A09AA02"/>
+   </action>
+   <action>
+      <title value="Measurement Retinol [Moles/volume] in Serum or Plasma"/>
+      <definitionUri value="activity-definition-loinc-14905-4"/>
+   </action>
+   <action>
+      <title value="Measurement Calcidiol [Moles/volume] in Serum or Plasma"/>
+      <definitionUri value="activity-definition-loinc-14635-7"/>
+   </action>
+   <action>
+      <title value="Measurement Alpha tocopherol [Moles/volume] in Serum or Plasma"/>
+      <definitionUri value="activity-definition-loinc-14590-4"/>
+   </action>
+   <action>
+      <title value="Measurement Prothrombin time (PT) in Control Platelet poor plasma by Coagulation assay"/>
+      <definitionUri value="activity-definition-loinc-5901-4"/>
+   </action>
+   <action>
+      <title value="Measurement INR in Blood by Coagulation assay"/>
+      <definitionUri value="activity-definition-loinc-34714-6"/>
+   </action>
+   <action>
+      <title value="Measurement Phytonadione [Moles/volume] in Serum or Plasma"/>
+      <definitionUri value="activity-definition-loinc-58793-1"/>
+   </action>
+   <action>
+      <title value="Measurement Elastase.pancreatic [Mass/mass] in Stool"/>
+      <definitionUri value="activity-definition-loinc-25907-7"/>
+   </action>
+   <action>
+      <title value="Measurement Trypsinogen [Mass/volume] in Serum or Plasma"/>
+      <definitionUri value="activity-definition-loinc-3066-8"/>
+   </action>
+   <action>
+      <title value="Measurement Amylase isoenzymes [Interpretation] in Serum or Plasma"/>
+      <definitionUri value="activity-definition-loinc-14589-6"/>
+   </action>
+   <action>
+      <title value="Measurement Lipase [Enzymatic activity/volume] in Serum or Plasma"/>
+      <definitionUri value="activity-definition-loinc-3040-3"/>
+   </action>
+</PlanDefinition>

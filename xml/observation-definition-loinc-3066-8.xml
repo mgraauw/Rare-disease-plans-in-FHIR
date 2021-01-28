@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObservationDefinition xmlns="http://hl7.org/fhir">
+   <id value="observation-definition-loinc-3066-8"/>
+   <text>
+      <status value="generated"/>
+      <div xmlns="http://www.w3.org/1999/xhtml">Observation for Trypsinogen [Mass/volume] in Serum or Plasma</div>
+   </text>
+   <code>
+      <coding>
+         <system value="http://loinc.org"/>
+         <code value="3066-8"/>
+         <display value="Trypsinogen [Mass/volume] in Serum or Plasma"/>
+      </coding>
+   </code>
+</ObservationDefinition>

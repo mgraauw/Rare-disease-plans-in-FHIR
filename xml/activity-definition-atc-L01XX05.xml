@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ActivityDefinition xmlns="http://hl7.org/fhir">
+   <id value="activity-definition-atc-L01XX05"/>
+   <text>
+      <status value="generated"/>
+      <div xmlns="http://www.w3.org/1999/xhtml">Activity Definition for HYDROXYCARBAMIDE</div>
+   </text>
+   <url value="https://rarecare.world/L01XX05"/>
+   <status value="draft"/>
+   <description value="HYDROXYCARBAMIDE Medication"/>
+   <kind value="MedicationRequest"/>
+   <code>
+      <text value="HYDROXYCARBAMIDE"/>
+   </code>
+   <productCodeableConcept>
+      <coding>
+         <system value="http://www.whocc.no/atc"/>
+         <code value="L01XX05"/>
+         <display value="HYDROXYCARBAMIDE"/>
+      </coding>
+   </productCodeableConcept>
+</ActivityDefinition>

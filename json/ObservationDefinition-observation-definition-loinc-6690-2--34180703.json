@@ -1,0 +1,1 @@
+{"resourceType":"ObservationDefinition","id":"observation-definition-loinc-6690-2","text":{"status":"generated","div":"<div xmlns=\"http://www.w3.org/1999/xhtml\">Observation for Leukocytes [#/volume] in Blood by Automated count</div>"},"code":{"coding":[{"system":"http://loinc.org","code":"6690-2","display":"Leukocytes [#/volume] in Blood by Automated count"}]}}

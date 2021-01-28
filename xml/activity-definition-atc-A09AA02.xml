@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ActivityDefinition xmlns="http://hl7.org/fhir">
+   <id value="activity-definition-atc-A09AA02"/>
+   <text>
+      <status value="generated"/>
+      <div xmlns="http://www.w3.org/1999/xhtml">Activity Definition for MULTI-ENZYMEN (LIPASE, PROTEASE, ENZ)</div>
+   </text>
+   <url value="https://rarecare.world/A09AA02"/>
+   <status value="draft"/>
+   <description value="MULTI-ENZYMEN (LIPASE, PROTEASE, ENZ) Medication"/>
+   <kind value="MedicationRequest"/>
+   <code>
+      <text value="MULTI-ENZYMEN (LIPASE, PROTEASE, ENZ)"/>
+   </code>
+   <productCodeableConcept>
+      <coding>
+         <system value="http://www.whocc.no/atc"/>
+         <code value="A09AA02"/>
+         <display value="MULTI-ENZYMEN (LIPASE, PROTEASE, ENZ)"/>
+      </coding>
+   </productCodeableConcept>
+</ActivityDefinition>

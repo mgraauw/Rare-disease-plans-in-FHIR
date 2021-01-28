@@ -1,0 +1,1 @@
+{"resourceType":"ObservationDefinition","id":"observation-definition-loinc-14635-7","text":{"status":"generated","div":"<div xmlns=\"http://www.w3.org/1999/xhtml\">Observation for Calcidiol [Moles/volume] in Serum or Plasma</div>"},"code":{"coding":[{"system":"http://loinc.org","code":"14635-7","display":"Calcidiol [Moles/volume] in Serum or Plasma"}]}}

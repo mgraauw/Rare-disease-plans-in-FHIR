@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ActivityDefinition xmlns="http://hl7.org/fhir">
+   <id value="activity-definition-loinc-14804-9"/>
+   <text>
+      <status value="generated"/>
+      <div xmlns="http://www.w3.org/1999/xhtml">Activity Definition for Lactate dehydrogenase [Enzymatic activity/volume] in Serum or Plasma by Lactate to pyruvate reaction</div>
+   </text>
+   <url value="https://rarecare.world/14804-9"/>
+   <status value="draft"/>
+   <description value="Lactate dehydrogenase [Enzymatic activity/volume] in Serum or Plasma by Lactate to pyruvate reaction Measurement"/>
+   <kind value="ServiceRequest"/>
+   <code>
+      <text value="Lactate dehydrogenase [Enzymatic activity/volume] in Serum or Plasma by Lactate to pyruvate reaction"/>
+   </code>
+   <observationResultRequirement>
+      <reference value="observation-definition-14804-9"/>
+   </observationResultRequirement>
+</ActivityDefinition>
