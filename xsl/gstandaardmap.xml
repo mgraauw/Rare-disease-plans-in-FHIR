@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mapping>
+    <atc code="V03AC01" naam="DEFEROXAMINE">
+        <gpk code="153354" naam="DEFEROXAMINE INFVLST 71,43MG/ML">
+            <prk code="120464"/>
+            <hpk code="2450313"/>
+            <atkode code="16053672"/>
+        </gpk>
+        <gpk code="105627" naam="DEFEROXAMINE INJECTIEPOEDER 500MG">
+            <prk code="795"/>
+            <hpk code="25801"/>
+            <atkode code="16053672"/>
+            <atkode code="12114774"/>
+            <atkode code="15084922"/>
+            <atkode code="15104230"/>
+            <atkode code="15149528"/>
+            <atkode code="15924351"/>
+            <atkode code="15924629"/>
+            <atkode code="15978974"/>
+        </gpk>
+    </atc>
+    <atc code="V03AC03" naam="DEFERASIROX">
+        <gpk code="126071" naam="DEFERASIROX DISPERTABLET 250MG">
+            <prk code="81736"/>
+            <hpk code="1836773"/>
+            <atkode code="15213897"/>
+            <atkode code="15425509"/>
+            <atkode code="15441148"/>
+        </gpk>
+        <gpk code="126063" naam="DEFERASIROX DISPERTABLET 125MG">
+            <prk code="81744"/>
+            <hpk code="1836781"/>
+            <atkode code="15213900"/>
+            <atkode code="15858731"/>
+        </gpk>
+        <gpk code="126098" naam="DEFERASIROX DISPERTABLET 500MG">
+            <prk code="81752"/>
+            <hpk code="1836803"/>
+            <atkode code="15213919"/>
+            <atkode code="15326012"/>
+            <atkode code="15425525"/>
+            <atkode code="15441156"/>
+        </gpk>
+    </atc>
+    <atc code="V03AC02" naam="DEFERIPRON">
+        <gpk code="129801" naam="DEFERIPRON DRANK 100MG/ML">
+            <prk code="87106"/>
+            <hpk code="1966219"/>
+            <atkode code="15397971"/>
+        </gpk>
+        <gpk code="124079" naam="DEFERIPRON TABLET 500MG">
+            <prk code="78425"/>
+            <hpk code="1750615"/>
+            <atkode code="15073904"/>
+        </gpk>
+    </atc>
+    <atc code="L01XX05" naam="HYDROXYCARBAMIDE">
+        <gpk code="9652" naam="HYDROXYCARBAMIDE CAPSULE 500MG">
+            <prk code="2690"/>
+            <hpk code="2033550"/>
+            <atkode code="15488373"/>
+            <atkode code="15488373"/>
+            <atkode code="15576299"/>
+            <atkode code="15576914"/>
+            <atkode code="15649946"/>
+            <atkode code="15908305"/>
+            <atkode code="15914100"/>
+        </gpk>
+        <gpk code="128945" naam="HYDROXYCARBAMIDE TABLET 1000MG">
+            <prk code="85855"/>
+            <hpk code="1928627"/>
+            <atkode code="15346412"/>
+        </gpk>
+        <gpk code="136050" naam="HYDROXYCARBAMIDE TABLET 100MG">
+            <prk code="96911"/>
+            <hpk code="2166844"/>
+            <atkode code="15669521"/>
+        </gpk>
+    </atc>
+</mapping>

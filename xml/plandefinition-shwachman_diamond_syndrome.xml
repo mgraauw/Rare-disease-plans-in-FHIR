@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <PlanDefinition xmlns="http://hl7.org/fhir">
-   <id value="disease-iris_coloboma"/>
+   <id value="rare-condition-shwachman_diamond_syndrome"/>
    <language value="nl-NL"/>
    <text>
       <status value="empty"/>
       <div xmlns="http://www.w3.org/1999/xhtml"> TODO </div>
    </text>
-   <url value="http://rarecare.world/PlanDefinition/iris_coloboma"/>
+   <url value="http://rarecare.world/PlanDefinition/shwachman_diamond_syndrome"/>
    <identifier>
       <use value="official"/>
-      <value value="iris_coloboma-plan"/>
+      <value value="shwachman_diamond_syndrome-plan"/>
    </identifier>
    <version value="0.1"/>
-   <title value="Iris Coloboma Management"/>
+   <title value="Shwachman Diamond Syndrome Management"/>
    <type>
       <coding>
          <system value="http://terminology.hl7.org/CodeSystem/plan-definition-type"/>
@@ -28,7 +28,7 @@
          <display value="Patient"/>
       </coding>
    </subjectCodeableConcept>
-   <date value="2021-02-20"/>
+   <date value="2021-02-04"/>
    <publisher value="Stichting Rare Care World"/>
    <contact>
       <telecom>
@@ -36,7 +36,7 @@
          <value value="https://rarecare.world"/>
       </telecom>
    </contact>
-   <description value="Iris Coloboma personal management plan."/>
+   <description value="Shwachman Diamond Syndrome personal management plan."/>
    <topic>
       <coding>
          <system value="http://terminology.hl7.org/CodeSystem/definition-topic"/>
@@ -45,23 +45,27 @@
       </coding>
    </topic>
    <relatedArtifact>
-      <type value="documentation"/>
-      <url value="https://rarecare.world/disease/iris_coloboma"/>
+      <type value="justification"/>
+      <url value="https://rarecare.world/general-medical-guideline/shwachman_diamond_syndrome"/>
    </relatedArtifact>
    <goal>
       <description>
-         <text value="Iris Coloboma management"/>
+         <text value="Shwachman Diamond Syndrome management"/>
       </description>
       <addresses>
          <coding>
-            <system value="http://snomed.info/sct"/>
-            <code value="9446007"/>
-            <display value="Coloboma of iris (disorder)"/>
+            <system value="http://www.orpha.net"/>
+            <code value="ORPHA:811"/>
+            <display value="Shwachman-Diamond syndrome"/>
          </coding>
       </addresses>
    </goal>
    <action>
-      <title value="Questionnaire for Iris Coloboma"/>
-      <definitionUri value="questionnaire-iris_coloboma"/>
+      <title value="Early childhood developmental disability (disorder) Management"/>
+      <definitionCanonical value="http://rarecare.world/PlanDefinition/ontwikkelingsstoornis"/>
+   </action>
+   <action>
+      <title value="Neutropenic disorder (disorder) Management"/>
+      <definitionCanonical value="http://rarecare.world/PlanDefinition/neutropenie"/>
    </action>
 </PlanDefinition>

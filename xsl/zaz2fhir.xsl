@@ -1,12 +1,11 @@
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="3.0">
     <xsl:output method="xml" indent="true"/>
-    <xsl:variable name="orphacodes" select="('811')"/>
     <xsl:template match="/">
-        <xsl:apply-templates select="dataset/concept"/>
+        <xsl:apply-templates select="dataset//concept"/>
         <xsl:apply-templates select="//valueSet//concept"/>
     </xsl:template>
     <!-- Make a PlanDefintion for SDS, 811 -->
-    <xsl:template match="concept[terminologyAssociation[@codeSystem = '2.16.840.1.113883.2.4.3.46.10.4.1']/@code = $orphacodes]">
+    <xsl:template match="concept[terminologyAssociation[@codeSystem = '2.16.840.1.113883.2.4.3.46.10.4.1']/@code='811']">
         <xsl:variable name="shortName" select="implementation/@shortName/string()"/>
         <xsl:variable name="fullName" select="name[1]/string()"/>
         <xsl:result-document method="xml" indent="true" href="../xml/plandefinition-{$shortName}.xml">
@@ -318,6 +317,7 @@
             </xsl:if>
         </xsl:for-each>
     </xsl:template>
+    
     <xsl:template match="concept[@codeSystem = '2.16.840.1.113883.6.1']">
         <xsl:variable name="code" select="@code"/>
         <!-- Skip if another code has been processed -->

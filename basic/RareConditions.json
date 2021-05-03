@@ -1,0 +1,1211 @@
+{
+    "RareConditions": {
+        "RareCondition": [
+            {
+                "shortName": "shwachman_diamond_syndrome",
+                "name": {
+                    "xmlns:cda": "urn:hl7-org:v3",
+                    "xmlns:hl7": "urn:hl7-org:v3",
+                    "xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                    "language": "nl-NL",
+                    "lastTranslated": "2018-07-09T14:01:42",
+                    "#text": "Shwachman Diamond Syndrome"
+                },
+                "coding": {
+                    "system": {"value": "http://www.orpha.net"},
+                    "code": {"value": "ORPHA:811"},
+                    "display": {"value": "Shwachman-Diamond syndrome"}
+                },
+                "Diseases": {
+                    "Disease": [
+                        {
+                            "shortName": "ontwikkelingsstoornis",
+                            "name": {
+                                "xmlns:cda": "urn:hl7-org:v3",
+                                "xmlns:hl7": "urn:hl7-org:v3",
+                                "xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                "language": "nl-NL",
+                                "lastTranslated": "2018-07-18T15:39:51",
+                                "#text": "Ontwikkelingsstoornis"
+                            },
+                            "coding": {
+                                "system": {"value": "http://snomed.info/sct"},
+                                "code": {"value": 716710007},
+                                "display": {"value": "Early childhood developmental disability (disorder)"}
+                            },
+                            "Medicatie": "",
+                            "LabUitslagen": {
+                                "LabUitslag": [
+                                    {
+                                        "title": {"value": "Birth weight Measured"},
+                                        "coding": {
+                                            "system": {"value": "http://loinc.org"},
+                                            "code": {"value": "8339-4"},
+                                            "display": {"value": "Birth weight Measured"}
+                                        }
+                                    },
+                                    {
+                                        "title": {"value": "Body height Measured"},
+                                        "coding": {
+                                            "system": {"value": "http://loinc.org"},
+                                            "code": {"value": "3137-7"},
+                                            "display": {"value": "Body height Measured"}
+                                        }
+                                    }
+                                ]
+                            },
+                            "VragenLijst": {
+                                "title": {"value": "Vragenlijst functies voor Ontwikkelingsstoornis"},
+                                "Vraag": [
+                                    {
+                                        "coding": {
+                                            "system": {"value": "http://hl7.org/fhir/sid/icf-nl"},
+                                            "code": {"value": "b117"},
+                                            "display": {"value": "Intellectuele functies"}
+                                        }
+                                    },
+                                    {
+                                        "coding": {
+                                            "system": {"value": "http://hl7.org/fhir/sid/icf-nl"},
+                                            "code": {"value": "b310"},
+                                            "display": {"value": "Stem"}
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "shortName": "neutropenie",
+                            "name": {
+                                "xmlns:cda": "urn:hl7-org:v3",
+                                "xmlns:hl7": "urn:hl7-org:v3",
+                                "xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                "language": "nl-NL",
+                                "lastTranslated": "2018-07-09T16:33:11",
+                                "#text": "Neutropenie"
+                            },
+                            "coding": {
+                                "system": {"value": "http://snomed.info/sct"},
+                                "code": {"value": 303011007},
+                                "display": {"value": "Neutropenic disorder (disorder)"}
+                            },
+                            "Medicatie": "",
+                            "LabUitslagen": {
+                                "LabUitslag": [
+                                    {
+                                        "title": {"value": "Hemoglobin [Moles/volume] in Blood"},
+                                        "coding": {
+                                            "system": {"value": "http://loinc.org"},
+                                            "code": {"value": "59260-0"},
+                                            "display": {"value": "Hemoglobin [Moles/volume] in Blood"}
+                                        }
+                                    },
+                                    {
+                                        "title": {"value": "Neutrophils [#/volume] in Blood by Automated count"},
+                                        "coding": {
+                                            "system": {"value": "http://loinc.org"},
+                                            "code": {"value": "751-8"},
+                                            "display": {"value": "Neutrophils [#/volume] in Blood by Automated count"}
+                                        }
+                                    },
+                                    {
+                                        "title": {"value": "Hemoglobin [Mass/volume] in Blood"},
+                                        "coding": {
+                                            "system": {"value": "http://loinc.org"},
+                                            "code": {"value": "718-7"},
+                                            "display": {"value": "Hemoglobin [Mass/volume] in Blood"}
+                                        }
+                                    },
+                                    {
+                                        "title": {"value": "Hemoglobin F [Mass/volume] in Blood"},
+                                        "coding": {
+                                            "system": {"value": "http://loinc.org"},
+                                            "code": {"value": "53857-9"},
+                                            "display": {"value": "Hemoglobin F [Mass/volume] in Blood"}
+                                        }
+                                    },
+                                    {
+                                        "title": {"value": "Hematocrit [Volume Fraction] of Blood by Automated count"},
+                                        "coding": {
+                                            "system": {"value": "http://loinc.org"},
+                                            "code": {"value": "4544-3"},
+                                            "display": {"value": "Hematocrit [Volume Fraction] of Blood by Automated count"}
+                                        }
+                                    },
+                                    {
+                                        "title": {"value": "Reticulocytes [#/volume] in Blood by Automated count"},
+                                        "coding": {
+                                            "system": {"value": "http://loinc.org"},
+                                            "code": {"value": "60474-4"},
+                                            "display": {"value": "Reticulocytes [#/volume] in Blood by Automated count"}
+                                        }
+                                    },
+                                    {
+                                        "title": {"value": "Reticulocytes/100 erythrocytes in Blood by Automated count"},
+                                        "coding": {
+                                            "system": {"value": "http://loinc.org"},
+                                            "code": {"value": "17849-1"},
+                                            "display": {"value": "Reticulocytes/100 erythrocytes in Blood by Automated count"}
+                                        }
+                                    },
+                                    {
+                                        "title": {"value": "Leukocytes [#/volume] in Blood by Automated count"},
+                                        "coding": {
+                                            "system": {"value": "http://loinc.org"},
+                                            "code": {"value": "6690-2"},
+                                            "display": {"value": "Leukocytes [#/volume] in Blood by Automated count"}
+                                        }
+                                    },
+                                    {
+                                        "title": {"value": "Iron [Moles/volume] in Serum or Plasma"},
+                                        "coding": {
+                                            "system": {"value": "http://loinc.org"},
+                                            "code": {"value": "14798-3"},
+                                            "display": {"value": "Iron [Moles/volume] in Serum or Plasma"}
+                                        }
+                                    },
+                                    {
+                                        "title": {"value": "Folate [Moles/volume] in Serum or Plasma"},
+                                        "coding": {
+                                            "system": {"value": "http://loinc.org"},
+                                            "code": {"value": "14732-2"},
+                                            "display": {"value": "Folate [Moles/volume] in Serum or Plasma"}
+                                        }
+                                    },
+                                    {
+                                        "title": {"value": "Cobalamin (Vitamin B12) [Moles/volume] in Serum or Plasma"},
+                                        "coding": {
+                                            "system": {"value": "http://loinc.org"},
+                                            "code": {"value": "14685-2"},
+                                            "display": {"value": "Cobalamin (Vitamin B12) [Moles/volume] in Serum or Plasma"}
+                                        }
+                                    },
+                                    {
+                                        "title": {"value": "IgG [Mass/volume] in Serum or Plasma"},
+                                        "coding": {
+                                            "system": {"value": "http://loinc.org"},
+                                            "code": {"value": "2465-3"},
+                                            "display": {"value": "IgG [Mass/volume] in Serum or Plasma"}
+                                        }
+                                    },
+                                    {
+                                        "title": {"value": "IgA [Mass/volume] in Serum or Plasma"},
+                                        "coding": {
+                                            "system": {"value": "http://loinc.org"},
+                                            "code": {"value": "2458-8"},
+                                            "display": {"value": "IgA [Mass/volume] in Serum or Plasma"}
+                                        }
+                                    },
+                                    {
+                                        "title": {"value": "IgM [Mass/volume] in Serum or Plasma"},
+                                        "coding": {
+                                            "system": {"value": "http://loinc.org"},
+                                            "code": {"value": "2472-9"},
+                                            "display": {"value": "IgM [Mass/volume] in Serum or Plasma"}
+                                        }
+                                    }
+                                ]
+                            },
+                            "VragenLijst": {
+                                "title": {"value": "Vragenlijst functies voor Neutropenie"},
+                                "Vraag": {
+                                    "coding": {
+                                        "system": {"value": "http://hl7.org/fhir/sid/icf-nl"},
+                                        "code": {"value": "b4300"},
+                                        "display": {"value": "Bloedaanmaak"}
+                                    }
+                                }
+                            }
+                        }
+                    ]
+                },
+                "VragenLijst": {
+                    "title": {"value": "Vragenlijst activiteit en participatie voor Shwachman Diamond Syndrome"},
+                    "Vraag": [
+                        {
+                            "coding": {
+                                "system": {"value": "http://hl7.org/fhir/sid/icf-nl"},
+                                "code": {"value": "d4751"},
+                                "display": {"value": "Besturen van gemotoriseerde voertuigen"}
+                            }
+                        },
+                        {
+                            "coding": {
+                                "system": {"value": "http://hl7.org/fhir/sid/icf-nl"},
+                                "code": {"value": "d610"},
+                                "display": {"value": "Verwerven van woonruimte"}
+                            }
+                        },
+                        {
+                            "coding": {
+                                "system": {"value": "http://hl7.org/fhir/sid/icf-nl"},
+                                "code": {"value": "d820"},
+                                "display": {"value": "Schoolse opleiding"}
+                            }
+                        },
+                        {
+                            "coding": {
+                                "system": {"value": "http://hl7.org/fhir/sid/icf-nl"},
+                                "code": {"value": "d240"},
+                                "display": {"value": "Omgaan met stress en andere mentale eisen"}
+                            }
+                        },
+                        {
+                            "coding": {
+                                "system": {"value": "http://hl7.org/fhir/sid/icf-nl"},
+                                "code": {"value": "d570"},
+                                "display": {"value": "Zorgdragen voor eigen gezondheid"}
+                            }
+                        },
+                        {
+                            "coding": {
+                                "system": {"value": "http://hl7.org/fhir/sid/icf-nl"},
+                                "code": {"value": "d210"},
+                                "display": {"value": "Ondernemen van enkelvoudige taak"}
+                            }
+                        },
+                        {
+                            "coding": {
+                                "system": {"value": "http://hl7.org/fhir/sid/icf-nl"},
+                                "code": {"value": "d310"},
+                                "display": {"value": "Begrijpen van gesproken boodschappen"}
+                            }
+                        },
+                        {
+                            "coding": {
+                                "system": {"value": "http://hl7.org/fhir/sid/icf-nl"},
+                                "code": {"value": "d710"},
+                                "display": {"value": "Basale tussenmenselijke interacties"}
+                            }
+                        },
+                        {
+                            "coding": {
+                                "system": {"value": "http://hl7.org/fhir/sid/icf-nl"},
+                                "code": {"value": "d720"},
+                                "display": {"value": "Complexe tussenmenselijke interacties"}
+                            }
+                        },
+                        {
+                            "coding": {
+                                "system": {"value": "http://hl7.org/fhir/sid/icf-nl"},
+                                "code": {"value": "d920"},
+                                "display": {"value": "Recreatie en vrije tijd"}
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "shortName": "betathalassemie",
+                "name": {
+                    "xmlns:cda": "urn:hl7-org:v3",
+                    "xmlns:hl7": "urn:hl7-org:v3",
+                    "xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                    "language": "nl-NL",
+                    "lastTranslated": "2018-07-09T14:01:21",
+                    "#text": "Beta-thalassemie"
+                },
+                "coding": {
+                    "system": {"value": "http://www.orpha.net"},
+                    "code": {"value": "ORPHA:231214"},
+                    "display": {"value": "Beta-thalassemia major"}
+                },
+                "Diseases": {
+                    "Disease": [
+                        {
+                            "shortName": "hemochromatose",
+                            "name": {
+                                "xmlns:cda": "urn:hl7-org:v3",
+                                "xmlns:hl7": "urn:hl7-org:v3",
+                                "xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                "language": "nl-NL",
+                                "lastTranslated": "2018-07-09T15:51:04",
+                                "#text": "Hemochromatose"
+                            },
+                            "coding": {
+                                "system": {"value": "http://snomed.info/sct"},
+                                "code": {"value": 399187006},
+                                "display": {"value": "Hemochromatosis (disorder)"}
+                            },
+                            "Medicatie": {
+                                "MedicatieGebruik": [
+                                    {
+                                        "title": {"value": "DEFEROXAMINE"},
+                                        "coding": [
+                                            {
+                                                "system": {"value": "http://www.whocc.no/atc"},
+                                                "code": {"value": "V03AC01"},
+                                                "display": {"value": "DEFEROXAMINE"},
+                                                "systemName": {"value": "Anatomic Therapeutic Classification code (ATC)"}
+                                            },
+                                            {
+                                                "system": {"value": "urn:oid:2.16.840.1.113883.2.4.4.1"},
+                                                "code": {"value": 153354},
+                                                "display": {"value": "DEFEROXAMINE INFVLST 71,43MG/ML"},
+                                                "systemName": {"value": "G-standaard Generic product code (GPK)"}
+                                            },
+                                            {
+                                                "system": {"value": "urn:oid:2.16.840.1.113883.2.4.4.10"},
+                                                "code": {"value": 120464},
+                                                "systemName": {"value": "G-standaard Prescription code (PRK)"}
+                                            },
+                                            {
+                                                "system": {"value": "urn:oid:2.16.840.1.113883.2.4.4.7"},
+                                                "code": {"value": 2450313},
+                                                "systemName": {"value": "G-standaard Trade product code (HPK)"}
+                                            },
+                                            {
+                                                "system": {"value": "urn:oid:2.16.840.1.113883.2.4.4.8"},
+                                                "code": {"value": 16053672},
+                                                "systemName": {"value": "KNMP article number (ATKODE)"}
+                                            },
+                                            {
+                                                "system": {"value": "urn:oid:2.16.840.1.113883.2.4.4.1"},
+                                                "code": {"value": 105627},
+                                                "display": {"value": "DEFEROXAMINE INJECTIEPOEDER 500MG"},
+                                                "systemName": {"value": "G-standaard Generic product code (GPK)"}
+                                            },
+                                            {
+                                                "system": {"value": "urn:oid:2.16.840.1.113883.2.4.4.10"},
+                                                "code": {"value": 795},
+                                                "systemName": {"value": "G-standaard Prescription code (PRK)"}
+                                            },
+                                            {
+                                                "system": {"value": "urn:oid:2.16.840.1.113883.2.4.4.7"},
+                                                "code": {"value": 25801},
+                                                "systemName": {"value": "G-standaard Trade product code (HPK)"}
+                                            },
+                                            {
+                                                "system": {"value": "urn:oid:2.16.840.1.113883.2.4.4.8"},
+                                                "code": {"value": 16053672},
+                                                "systemName": {"value": "KNMP article number (ATKODE)"}
+                                            },
+                                            {
+                                                "system": {"value": "urn:oid:2.16.840.1.113883.2.4.4.8"},
+                                                "code": {"value": 12114774},
+                                                "systemName": {"value": "KNMP article number (ATKODE)"}
+                                            },
+                                            {
+                                                "system": {"value": "urn:oid:2.16.840.1.113883.2.4.4.8"},
+                                                "code": {"value": 15084922},
+                                                "systemName": {"value": "KNMP article number (ATKODE)"}
+                                            },
+                                            {
+                                                "system": {"value": "urn:oid:2.16.840.1.113883.2.4.4.8"},
+                                                "code": {"value": 15104230},
+                                                "systemName": {"value": "KNMP article number (ATKODE)"}
+                                            },
+                                            {
+                                                "system": {"value": "urn:oid:2.16.840.1.113883.2.4.4.8"},
+                                                "code": {"value": 15149528},
+                                                "systemName": {"value": "KNMP article number (ATKODE)"}
+                                            },
+                                            {
+                                                "system": {"value": "urn:oid:2.16.840.1.113883.2.4.4.8"},
+                                                "code": {"value": 15924351},
+                                                "systemName": {"value": "KNMP article number (ATKODE)"}
+                                            },
+                                            {
+                                                "system": {"value": "urn:oid:2.16.840.1.113883.2.4.4.8"},
+                                                "code": {"value": 15924629},
+                                                "systemName": {"value": "KNMP article number (ATKODE)"}
+                                            },
+                                            {
+                                                "system": {"value": "urn:oid:2.16.840.1.113883.2.4.4.8"},
+                                                "code": {"value": 15978974},
+                                                "systemName": {"value": "KNMP article number (ATKODE)"}
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "title": {"value": "DEFERASIROX"},
+                                        "coding": [
+                                            {
+                                                "system": {"value": "http://www.whocc.no/atc"},
+                                                "code": {"value": "V03AC03"},
+                                                "display": {"value": "DEFERASIROX"},
+                                                "systemName": {"value": "Anatomic Therapeutic Classification code (ATC)"}
+                                            },
+                                            {
+                                                "system": {"value": "urn:oid:2.16.840.1.113883.2.4.4.1"},
+                                                "code": {"value": 126071},
+                                                "display": {"value": "DEFERASIROX DISPERTABLET 250MG"},
+                                                "systemName": {"value": "G-standaard Generic product code (GPK)"}
+                                            },
+                                            {
+                                                "system": {"value": "urn:oid:2.16.840.1.113883.2.4.4.10"},
+                                                "code": {"value": 81736},
+                                                "systemName": {"value": "G-standaard Prescription code (PRK)"}
+                                            },
+                                            {
+                                                "system": {"value": "urn:oid:2.16.840.1.113883.2.4.4.7"},
+                                                "code": {"value": 1836773},
+                                                "systemName": {"value": "G-standaard Trade product code (HPK)"}
+                                            },
+                                            {
+                                                "system": {"value": "urn:oid:2.16.840.1.113883.2.4.4.8"},
+                                                "code": {"value": 15213897},
+                                                "systemName": {"value": "KNMP article number (ATKODE)"}
+                                            },
+                                            {
+                                                "system": {"value": "urn:oid:2.16.840.1.113883.2.4.4.8"},
+                                                "code": {"value": 15425509},
+                                                "systemName": {"value": "KNMP article number (ATKODE)"}
+                                            },
+                                            {
+                                                "system": {"value": "urn:oid:2.16.840.1.113883.2.4.4.8"},
+                                                "code": {"value": 15441148},
+                                                "systemName": {"value": "KNMP article number (ATKODE)"}
+                                            },
+                                            {
+                                                "system": {"value": "urn:oid:2.16.840.1.113883.2.4.4.1"},
+                                                "code": {"value": 126063},
+                                                "display": {"value": "DEFERASIROX DISPERTABLET 125MG"},
+                                                "systemName": {"value": "G-standaard Generic product code (GPK)"}
+                                            },
+                                            {
+                                                "system": {"value": "urn:oid:2.16.840.1.113883.2.4.4.10"},
+                                                "code": {"value": 81744},
+                                                "systemName": {"value": "G-standaard Prescription code (PRK)"}
+                                            },
+                                            {
+                                                "system": {"value": "urn:oid:2.16.840.1.113883.2.4.4.7"},
+                                                "code": {"value": 1836781},
+                                                "systemName": {"value": "G-standaard Trade product code (HPK)"}
+                                            },
+                                            {
+                                                "system": {"value": "urn:oid:2.16.840.1.113883.2.4.4.8"},
+                                                "code": {"value": 15213900},
+                                                "systemName": {"value": "KNMP article number (ATKODE)"}
+                                            },
+                                            {
+                                                "system": {"value": "urn:oid:2.16.840.1.113883.2.4.4.8"},
+                                                "code": {"value": 15858731},
+                                                "systemName": {"value": "KNMP article number (ATKODE)"}
+                                            },
+                                            {
+                                                "system": {"value": "urn:oid:2.16.840.1.113883.2.4.4.1"},
+                                                "code": {"value": 126098},
+                                                "display": {"value": "DEFERASIROX DISPERTABLET 500MG"},
+                                                "systemName": {"value": "G-standaard Generic product code (GPK)"}
+                                            },
+                                            {
+                                                "system": {"value": "urn:oid:2.16.840.1.113883.2.4.4.10"},
+                                                "code": {"value": 81752},
+                                                "systemName": {"value": "G-standaard Prescription code (PRK)"}
+                                            },
+                                            {
+                                                "system": {"value": "urn:oid:2.16.840.1.113883.2.4.4.7"},
+                                                "code": {"value": 1836803},
+                                                "systemName": {"value": "G-standaard Trade product code (HPK)"}
+                                            },
+                                            {
+                                                "system": {"value": "urn:oid:2.16.840.1.113883.2.4.4.8"},
+                                                "code": {"value": 15213919},
+                                                "systemName": {"value": "KNMP article number (ATKODE)"}
+                                            },
+                                            {
+                                                "system": {"value": "urn:oid:2.16.840.1.113883.2.4.4.8"},
+                                                "code": {"value": 15326012},
+                                                "systemName": {"value": "KNMP article number (ATKODE)"}
+                                            },
+                                            {
+                                                "system": {"value": "urn:oid:2.16.840.1.113883.2.4.4.8"},
+                                                "code": {"value": 15425525},
+                                                "systemName": {"value": "KNMP article number (ATKODE)"}
+                                            },
+                                            {
+                                                "system": {"value": "urn:oid:2.16.840.1.113883.2.4.4.8"},
+                                                "code": {"value": 15441156},
+                                                "systemName": {"value": "KNMP article number (ATKODE)"}
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "title": {"value": "DEFERIPRON"},
+                                        "coding": [
+                                            {
+                                                "system": {"value": "http://www.whocc.no/atc"},
+                                                "code": {"value": "V03AC02"},
+                                                "display": {"value": "DEFERIPRON"},
+                                                "systemName": {"value": "Anatomic Therapeutic Classification code (ATC)"}
+                                            },
+                                            {
+                                                "system": {"value": "urn:oid:2.16.840.1.113883.2.4.4.1"},
+                                                "code": {"value": 129801},
+                                                "display": {"value": "DEFERIPRON DRANK 100MG/ML"},
+                                                "systemName": {"value": "G-standaard Generic product code (GPK)"}
+                                            },
+                                            {
+                                                "system": {"value": "urn:oid:2.16.840.1.113883.2.4.4.10"},
+                                                "code": {"value": 87106},
+                                                "systemName": {"value": "G-standaard Prescription code (PRK)"}
+                                            },
+                                            {
+                                                "system": {"value": "urn:oid:2.16.840.1.113883.2.4.4.7"},
+                                                "code": {"value": 1966219},
+                                                "systemName": {"value": "G-standaard Trade product code (HPK)"}
+                                            },
+                                            {
+                                                "system": {"value": "urn:oid:2.16.840.1.113883.2.4.4.8"},
+                                                "code": {"value": 15397971},
+                                                "systemName": {"value": "KNMP article number (ATKODE)"}
+                                            },
+                                            {
+                                                "system": {"value": "urn:oid:2.16.840.1.113883.2.4.4.1"},
+                                                "code": {"value": 124079},
+                                                "display": {"value": "DEFERIPRON TABLET 500MG"},
+                                                "systemName": {"value": "G-standaard Generic product code (GPK)"}
+                                            },
+                                            {
+                                                "system": {"value": "urn:oid:2.16.840.1.113883.2.4.4.10"},
+                                                "code": {"value": 78425},
+                                                "systemName": {"value": "G-standaard Prescription code (PRK)"}
+                                            },
+                                            {
+                                                "system": {"value": "urn:oid:2.16.840.1.113883.2.4.4.7"},
+                                                "code": {"value": 1750615},
+                                                "systemName": {"value": "G-standaard Trade product code (HPK)"}
+                                            },
+                                            {
+                                                "system": {"value": "urn:oid:2.16.840.1.113883.2.4.4.8"},
+                                                "code": {"value": 15073904},
+                                                "systemName": {"value": "KNMP article number (ATKODE)"}
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            "LabUitslagen": {
+                                "LabUitslag": [
+                                    {
+                                        "title": {"value": "Ferritin [Mass/volume] in Serum or Plasma by Immunoassay"},
+                                        "coding": {
+                                            "system": {"value": "http://loinc.org"},
+                                            "code": {"value": "20567-4"},
+                                            "display": {"value": "Ferritin [Mass/volume] in Serum or Plasma by Immunoassay"}
+                                        }
+                                    },
+                                    {
+                                        "title": {"value": "Ferritin [Mass/volume] in Serum or Plasma"},
+                                        "coding": {
+                                            "system": {"value": "http://loinc.org"},
+                                            "code": {"value": "2276-4"},
+                                            "display": {"value": "Ferritin [Mass/volume] in Serum or Plasma"}
+                                        }
+                                    }
+                                ]
+                            },
+                            "VragenLijst": {
+                                "title": {"value": "Vragenlijst functies voor Hemochromatose"},
+                                "Vraag": {
+                                    "coding": {
+                                        "system": {"value": "http://hl7.org/fhir/sid/icf-nl"},
+                                        "code": {"value": "b4302"},
+                                        "display": {"value": "Transport van metabolieten door bloed"}
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "shortName": "hemoglobinopathie",
+                            "name": {
+                                "xmlns:cda": "urn:hl7-org:v3",
+                                "xmlns:hl7": "urn:hl7-org:v3",
+                                "xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                "language": "nl-NL",
+                                "#text": "Hemoglobinopathie"
+                            },
+                            "coding": {
+                                "system": {"value": "http://snomed.info/sct"},
+                                "code": {"value": 80141007},
+                                "display": {"value": "Hemoglobinopathy (disorder)"}
+                            },
+                            "Medicatie": {
+                                "MedicatieGebruik": {
+                                    "title": {"value": "HYDROXYCARBAMIDE"},
+                                    "coding": [
+                                        {
+                                            "system": {"value": "http://www.whocc.no/atc"},
+                                            "code": {"value": "L01XX05"},
+                                            "display": {"value": "HYDROXYCARBAMIDE"},
+                                            "systemName": {"value": "Anatomic Therapeutic Classification code (ATC)"}
+                                        },
+                                        {
+                                            "system": {"value": "urn:oid:2.16.840.1.113883.2.4.4.1"},
+                                            "code": {"value": 9652},
+                                            "display": {"value": "HYDROXYCARBAMIDE CAPSULE 500MG"},
+                                            "systemName": {"value": "G-standaard Generic product code (GPK)"}
+                                        },
+                                        {
+                                            "system": {"value": "urn:oid:2.16.840.1.113883.2.4.4.10"},
+                                            "code": {"value": 2690},
+                                            "systemName": {"value": "G-standaard Prescription code (PRK)"}
+                                        },
+                                        {
+                                            "system": {"value": "urn:oid:2.16.840.1.113883.2.4.4.7"},
+                                            "code": {"value": 2033550},
+                                            "systemName": {"value": "G-standaard Trade product code (HPK)"}
+                                        },
+                                        {
+                                            "system": {"value": "urn:oid:2.16.840.1.113883.2.4.4.8"},
+                                            "code": {"value": 15488373},
+                                            "systemName": {"value": "KNMP article number (ATKODE)"}
+                                        },
+                                        {
+                                            "system": {"value": "urn:oid:2.16.840.1.113883.2.4.4.8"},
+                                            "code": {"value": 15488373},
+                                            "systemName": {"value": "KNMP article number (ATKODE)"}
+                                        },
+                                        {
+                                            "system": {"value": "urn:oid:2.16.840.1.113883.2.4.4.8"},
+                                            "code": {"value": 15576299},
+                                            "systemName": {"value": "KNMP article number (ATKODE)"}
+                                        },
+                                        {
+                                            "system": {"value": "urn:oid:2.16.840.1.113883.2.4.4.8"},
+                                            "code": {"value": 15576914},
+                                            "systemName": {"value": "KNMP article number (ATKODE)"}
+                                        },
+                                        {
+                                            "system": {"value": "urn:oid:2.16.840.1.113883.2.4.4.8"},
+                                            "code": {"value": 15649946},
+                                            "systemName": {"value": "KNMP article number (ATKODE)"}
+                                        },
+                                        {
+                                            "system": {"value": "urn:oid:2.16.840.1.113883.2.4.4.8"},
+                                            "code": {"value": 15908305},
+                                            "systemName": {"value": "KNMP article number (ATKODE)"}
+                                        },
+                                        {
+                                            "system": {"value": "urn:oid:2.16.840.1.113883.2.4.4.8"},
+                                            "code": {"value": 15914100},
+                                            "systemName": {"value": "KNMP article number (ATKODE)"}
+                                        },
+                                        {
+                                            "system": {"value": "urn:oid:2.16.840.1.113883.2.4.4.1"},
+                                            "code": {"value": 128945},
+                                            "display": {"value": "HYDROXYCARBAMIDE TABLET 1000MG"},
+                                            "systemName": {"value": "G-standaard Generic product code (GPK)"}
+                                        },
+                                        {
+                                            "system": {"value": "urn:oid:2.16.840.1.113883.2.4.4.10"},
+                                            "code": {"value": 85855},
+                                            "systemName": {"value": "G-standaard Prescription code (PRK)"}
+                                        },
+                                        {
+                                            "system": {"value": "urn:oid:2.16.840.1.113883.2.4.4.7"},
+                                            "code": {"value": 1928627},
+                                            "systemName": {"value": "G-standaard Trade product code (HPK)"}
+                                        },
+                                        {
+                                            "system": {"value": "urn:oid:2.16.840.1.113883.2.4.4.8"},
+                                            "code": {"value": 15346412},
+                                            "systemName": {"value": "KNMP article number (ATKODE)"}
+                                        },
+                                        {
+                                            "system": {"value": "urn:oid:2.16.840.1.113883.2.4.4.1"},
+                                            "code": {"value": 136050},
+                                            "display": {"value": "HYDROXYCARBAMIDE TABLET 100MG"},
+                                            "systemName": {"value": "G-standaard Generic product code (GPK)"}
+                                        },
+                                        {
+                                            "system": {"value": "urn:oid:2.16.840.1.113883.2.4.4.10"},
+                                            "code": {"value": 96911},
+                                            "systemName": {"value": "G-standaard Prescription code (PRK)"}
+                                        },
+                                        {
+                                            "system": {"value": "urn:oid:2.16.840.1.113883.2.4.4.7"},
+                                            "code": {"value": 2166844},
+                                            "systemName": {"value": "G-standaard Trade product code (HPK)"}
+                                        },
+                                        {
+                                            "system": {"value": "urn:oid:2.16.840.1.113883.2.4.4.8"},
+                                            "code": {"value": 15669521},
+                                            "systemName": {"value": "KNMP article number (ATKODE)"}
+                                        }
+                                    ]
+                                }
+                            },
+                            "LabUitslagen": "",
+                            "VragenLijst": {
+                                "title": {"value": "Vragenlijst functies voor Hemoglobinopathie"},
+                                "Vraag": {
+                                    "coding": {
+                                        "system": {"value": "http://hl7.org/fhir/sid/icf-nl"},
+                                        "code": {"value": "b4300"},
+                                        "display": {"value": "Bloedaanmaak"}
+                                    }
+                                }
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "shortName": "sikkelcelziekte",
+                "name": {
+                    "xmlns:cda": "urn:hl7-org:v3",
+                    "xmlns:hl7": "urn:hl7-org:v3",
+                    "xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                    "language": "nl-NL",
+                    "lastTranslated": "2018-07-18T11:55:20",
+                    "#text": "Sikkelcelziekte"
+                },
+                "coding": {
+                    "system": {"value": "http://www.orpha.net"},
+                    "code": {"value": "ORPHA:232"},
+                    "display": {"value": "Sickle cell anemia"}
+                },
+                "Diseases": {
+                    "Disease": [
+                        {
+                            "shortName": "hemoglobinopathie",
+                            "name": {
+                                "xmlns:cda": "urn:hl7-org:v3",
+                                "xmlns:hl7": "urn:hl7-org:v3",
+                                "xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                "language": "nl-NL",
+                                "#text": "Hemoglobinopathie"
+                            },
+                            "coding": {
+                                "system": {"value": "http://snomed.info/sct"},
+                                "code": {"value": 80141007},
+                                "display": {"value": "Hemoglobinopathy (disorder)"}
+                            },
+                            "Medicatie": {
+                                "MedicatieGebruik": {
+                                    "title": {"value": "HYDROXYCARBAMIDE"},
+                                    "coding": [
+                                        {
+                                            "system": {"value": "http://www.whocc.no/atc"},
+                                            "code": {"value": "L01XX05"},
+                                            "display": {"value": "HYDROXYCARBAMIDE"},
+                                            "systemName": {"value": "Anatomic Therapeutic Classification code (ATC)"}
+                                        },
+                                        {
+                                            "system": {"value": "urn:oid:2.16.840.1.113883.2.4.4.1"},
+                                            "code": {"value": 9652},
+                                            "display": {"value": "HYDROXYCARBAMIDE CAPSULE 500MG"},
+                                            "systemName": {"value": "G-standaard Generic product code (GPK)"}
+                                        },
+                                        {
+                                            "system": {"value": "urn:oid:2.16.840.1.113883.2.4.4.10"},
+                                            "code": {"value": 2690},
+                                            "systemName": {"value": "G-standaard Prescription code (PRK)"}
+                                        },
+                                        {
+                                            "system": {"value": "urn:oid:2.16.840.1.113883.2.4.4.7"},
+                                            "code": {"value": 2033550},
+                                            "systemName": {"value": "G-standaard Trade product code (HPK)"}
+                                        },
+                                        {
+                                            "system": {"value": "urn:oid:2.16.840.1.113883.2.4.4.8"},
+                                            "code": {"value": 15488373},
+                                            "systemName": {"value": "KNMP article number (ATKODE)"}
+                                        },
+                                        {
+                                            "system": {"value": "urn:oid:2.16.840.1.113883.2.4.4.8"},
+                                            "code": {"value": 15488373},
+                                            "systemName": {"value": "KNMP article number (ATKODE)"}
+                                        },
+                                        {
+                                            "system": {"value": "urn:oid:2.16.840.1.113883.2.4.4.8"},
+                                            "code": {"value": 15576299},
+                                            "systemName": {"value": "KNMP article number (ATKODE)"}
+                                        },
+                                        {
+                                            "system": {"value": "urn:oid:2.16.840.1.113883.2.4.4.8"},
+                                            "code": {"value": 15576914},
+                                            "systemName": {"value": "KNMP article number (ATKODE)"}
+                                        },
+                                        {
+                                            "system": {"value": "urn:oid:2.16.840.1.113883.2.4.4.8"},
+                                            "code": {"value": 15649946},
+                                            "systemName": {"value": "KNMP article number (ATKODE)"}
+                                        },
+                                        {
+                                            "system": {"value": "urn:oid:2.16.840.1.113883.2.4.4.8"},
+                                            "code": {"value": 15908305},
+                                            "systemName": {"value": "KNMP article number (ATKODE)"}
+                                        },
+                                        {
+                                            "system": {"value": "urn:oid:2.16.840.1.113883.2.4.4.8"},
+                                            "code": {"value": 15914100},
+                                            "systemName": {"value": "KNMP article number (ATKODE)"}
+                                        },
+                                        {
+                                            "system": {"value": "urn:oid:2.16.840.1.113883.2.4.4.1"},
+                                            "code": {"value": 128945},
+                                            "display": {"value": "HYDROXYCARBAMIDE TABLET 1000MG"},
+                                            "systemName": {"value": "G-standaard Generic product code (GPK)"}
+                                        },
+                                        {
+                                            "system": {"value": "urn:oid:2.16.840.1.113883.2.4.4.10"},
+                                            "code": {"value": 85855},
+                                            "systemName": {"value": "G-standaard Prescription code (PRK)"}
+                                        },
+                                        {
+                                            "system": {"value": "urn:oid:2.16.840.1.113883.2.4.4.7"},
+                                            "code": {"value": 1928627},
+                                            "systemName": {"value": "G-standaard Trade product code (HPK)"}
+                                        },
+                                        {
+                                            "system": {"value": "urn:oid:2.16.840.1.113883.2.4.4.8"},
+                                            "code": {"value": 15346412},
+                                            "systemName": {"value": "KNMP article number (ATKODE)"}
+                                        },
+                                        {
+                                            "system": {"value": "urn:oid:2.16.840.1.113883.2.4.4.1"},
+                                            "code": {"value": 136050},
+                                            "display": {"value": "HYDROXYCARBAMIDE TABLET 100MG"},
+                                            "systemName": {"value": "G-standaard Generic product code (GPK)"}
+                                        },
+                                        {
+                                            "system": {"value": "urn:oid:2.16.840.1.113883.2.4.4.10"},
+                                            "code": {"value": 96911},
+                                            "systemName": {"value": "G-standaard Prescription code (PRK)"}
+                                        },
+                                        {
+                                            "system": {"value": "urn:oid:2.16.840.1.113883.2.4.4.7"},
+                                            "code": {"value": 2166844},
+                                            "systemName": {"value": "G-standaard Trade product code (HPK)"}
+                                        },
+                                        {
+                                            "system": {"value": "urn:oid:2.16.840.1.113883.2.4.4.8"},
+                                            "code": {"value": 15669521},
+                                            "systemName": {"value": "KNMP article number (ATKODE)"}
+                                        }
+                                    ]
+                                }
+                            },
+                            "LabUitslagen": "",
+                            "VragenLijst": {
+                                "title": {"value": "Vragenlijst functies voor Hemoglobinopathie"},
+                                "Vraag": {
+                                    "coding": {
+                                        "system": {"value": "http://hl7.org/fhir/sid/icf-nl"},
+                                        "code": {"value": "b4300"},
+                                        "display": {"value": "Bloedaanmaak"}
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "shortName": "acute_chest_syndrome",
+                            "name": {
+                                "xmlns:cda": "urn:hl7-org:v3",
+                                "xmlns:hl7": "urn:hl7-org:v3",
+                                "xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                "language": "nl-NL",
+                                "#text": "Acute chest syndrome"
+                            },
+                            "coding": {
+                                "system": {"value": "http://snomed.info/sct"},
+                                "code": {"value": 372146004},
+                                "display": {"value": "acute chest syndrome (aandoening)"}
+                            },
+                            "Medicatie": "",
+                            "LabUitslagen": ""
+                        },
+                        {
+                            "shortName": "hemochromatose",
+                            "name": {
+                                "xmlns:cda": "urn:hl7-org:v3",
+                                "xmlns:hl7": "urn:hl7-org:v3",
+                                "xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                                "language": "nl-NL",
+                                "lastTranslated": "2018-07-09T15:51:04",
+                                "#text": "Hemochromatose"
+                            },
+                            "coding": {
+                                "system": {"value": "http://snomed.info/sct"},
+                                "code": {"value": 399187006},
+                                "display": {"value": "Hemochromatosis (disorder)"}
+                            },
+                            "Medicatie": {
+                                "MedicatieGebruik": [
+                                    {
+                                        "title": {"value": "DEFEROXAMINE"},
+                                        "coding": [
+                                            {
+                                                "system": {"value": "http://www.whocc.no/atc"},
+                                                "code": {"value": "V03AC01"},
+                                                "display": {"value": "DEFEROXAMINE"},
+                                                "systemName": {"value": "Anatomic Therapeutic Classification code (ATC)"}
+                                            },
+                                            {
+                                                "system": {"value": "urn:oid:2.16.840.1.113883.2.4.4.1"},
+                                                "code": {"value": 153354},
+                                                "display": {"value": "DEFEROXAMINE INFVLST 71,43MG/ML"},
+                                                "systemName": {"value": "G-standaard Generic product code (GPK)"}
+                                            },
+                                            {
+                                                "system": {"value": "urn:oid:2.16.840.1.113883.2.4.4.10"},
+                                                "code": {"value": 120464},
+                                                "systemName": {"value": "G-standaard Prescription code (PRK)"}
+                                            },
+                                            {
+                                                "system": {"value": "urn:oid:2.16.840.1.113883.2.4.4.7"},
+                                                "code": {"value": 2450313},
+                                                "systemName": {"value": "G-standaard Trade product code (HPK)"}
+                                            },
+                                            {
+                                                "system": {"value": "urn:oid:2.16.840.1.113883.2.4.4.8"},
+                                                "code": {"value": 16053672},
+                                                "systemName": {"value": "KNMP article number (ATKODE)"}
+                                            },
+                                            {
+                                                "system": {"value": "urn:oid:2.16.840.1.113883.2.4.4.1"},
+                                                "code": {"value": 105627},
+                                                "display": {"value": "DEFEROXAMINE INJECTIEPOEDER 500MG"},
+                                                "systemName": {"value": "G-standaard Generic product code (GPK)"}
+                                            },
+                                            {
+                                                "system": {"value": "urn:oid:2.16.840.1.113883.2.4.4.10"},
+                                                "code": {"value": 795},
+                                                "systemName": {"value": "G-standaard Prescription code (PRK)"}
+                                            },
+                                            {
+                                                "system": {"value": "urn:oid:2.16.840.1.113883.2.4.4.7"},
+                                                "code": {"value": 25801},
+                                                "systemName": {"value": "G-standaard Trade product code (HPK)"}
+                                            },
+                                            {
+                                                "system": {"value": "urn:oid:2.16.840.1.113883.2.4.4.8"},
+                                                "code": {"value": 16053672},
+                                                "systemName": {"value": "KNMP article number (ATKODE)"}
+                                            },
+                                            {
+                                                "system": {"value": "urn:oid:2.16.840.1.113883.2.4.4.8"},
+                                                "code": {"value": 12114774},
+                                                "systemName": {"value": "KNMP article number (ATKODE)"}
+                                            },
+                                            {
+                                                "system": {"value": "urn:oid:2.16.840.1.113883.2.4.4.8"},
+                                                "code": {"value": 15084922},
+                                                "systemName": {"value": "KNMP article number (ATKODE)"}
+                                            },
+                                            {
+                                                "system": {"value": "urn:oid:2.16.840.1.113883.2.4.4.8"},
+                                                "code": {"value": 15104230},
+                                                "systemName": {"value": "KNMP article number (ATKODE)"}
+                                            },
+                                            {
+                                                "system": {"value": "urn:oid:2.16.840.1.113883.2.4.4.8"},
+                                                "code": {"value": 15149528},
+                                                "systemName": {"value": "KNMP article number (ATKODE)"}
+                                            },
+                                            {
+                                                "system": {"value": "urn:oid:2.16.840.1.113883.2.4.4.8"},
+                                                "code": {"value": 15924351},
+                                                "systemName": {"value": "KNMP article number (ATKODE)"}
+                                            },
+                                            {
+                                                "system": {"value": "urn:oid:2.16.840.1.113883.2.4.4.8"},
+                                                "code": {"value": 15924629},
+                                                "systemName": {"value": "KNMP article number (ATKODE)"}
+                                            },
+                                            {
+                                                "system": {"value": "urn:oid:2.16.840.1.113883.2.4.4.8"},
+                                                "code": {"value": 15978974},
+                                                "systemName": {"value": "KNMP article number (ATKODE)"}
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "title": {"value": "DEFERASIROX"},
+                                        "coding": [
+                                            {
+                                                "system": {"value": "http://www.whocc.no/atc"},
+                                                "code": {"value": "V03AC03"},
+                                                "display": {"value": "DEFERASIROX"},
+                                                "systemName": {"value": "Anatomic Therapeutic Classification code (ATC)"}
+                                            },
+                                            {
+                                                "system": {"value": "urn:oid:2.16.840.1.113883.2.4.4.1"},
+                                                "code": {"value": 126071},
+                                                "display": {"value": "DEFERASIROX DISPERTABLET 250MG"},
+                                                "systemName": {"value": "G-standaard Generic product code (GPK)"}
+                                            },
+                                            {
+                                                "system": {"value": "urn:oid:2.16.840.1.113883.2.4.4.10"},
+                                                "code": {"value": 81736},
+                                                "systemName": {"value": "G-standaard Prescription code (PRK)"}
+                                            },
+                                            {
+                                                "system": {"value": "urn:oid:2.16.840.1.113883.2.4.4.7"},
+                                                "code": {"value": 1836773},
+                                                "systemName": {"value": "G-standaard Trade product code (HPK)"}
+                                            },
+                                            {
+                                                "system": {"value": "urn:oid:2.16.840.1.113883.2.4.4.8"},
+                                                "code": {"value": 15213897},
+                                                "systemName": {"value": "KNMP article number (ATKODE)"}
+                                            },
+                                            {
+                                                "system": {"value": "urn:oid:2.16.840.1.113883.2.4.4.8"},
+                                                "code": {"value": 15425509},
+                                                "systemName": {"value": "KNMP article number (ATKODE)"}
+                                            },
+                                            {
+                                                "system": {"value": "urn:oid:2.16.840.1.113883.2.4.4.8"},
+                                                "code": {"value": 15441148},
+                                                "systemName": {"value": "KNMP article number (ATKODE)"}
+                                            },
+                                            {
+                                                "system": {"value": "urn:oid:2.16.840.1.113883.2.4.4.1"},
+                                                "code": {"value": 126063},
+                                                "display": {"value": "DEFERASIROX DISPERTABLET 125MG"},
+                                                "systemName": {"value": "G-standaard Generic product code (GPK)"}
+                                            },
+                                            {
+                                                "system": {"value": "urn:oid:2.16.840.1.113883.2.4.4.10"},
+                                                "code": {"value": 81744},
+                                                "systemName": {"value": "G-standaard Prescription code (PRK)"}
+                                            },
+                                            {
+                                                "system": {"value": "urn:oid:2.16.840.1.113883.2.4.4.7"},
+                                                "code": {"value": 1836781},
+                                                "systemName": {"value": "G-standaard Trade product code (HPK)"}
+                                            },
+                                            {
+                                                "system": {"value": "urn:oid:2.16.840.1.113883.2.4.4.8"},
+                                                "code": {"value": 15213900},
+                                                "systemName": {"value": "KNMP article number (ATKODE)"}
+                                            },
+                                            {
+                                                "system": {"value": "urn:oid:2.16.840.1.113883.2.4.4.8"},
+                                                "code": {"value": 15858731},
+                                                "systemName": {"value": "KNMP article number (ATKODE)"}
+                                            },
+                                            {
+                                                "system": {"value": "urn:oid:2.16.840.1.113883.2.4.4.1"},
+                                                "code": {"value": 126098},
+                                                "display": {"value": "DEFERASIROX DISPERTABLET 500MG"},
+                                                "systemName": {"value": "G-standaard Generic product code (GPK)"}
+                                            },
+                                            {
+                                                "system": {"value": "urn:oid:2.16.840.1.113883.2.4.4.10"},
+                                                "code": {"value": 81752},
+                                                "systemName": {"value": "G-standaard Prescription code (PRK)"}
+                                            },
+                                            {
+                                                "system": {"value": "urn:oid:2.16.840.1.113883.2.4.4.7"},
+                                                "code": {"value": 1836803},
+                                                "systemName": {"value": "G-standaard Trade product code (HPK)"}
+                                            },
+                                            {
+                                                "system": {"value": "urn:oid:2.16.840.1.113883.2.4.4.8"},
+                                                "code": {"value": 15213919},
+                                                "systemName": {"value": "KNMP article number (ATKODE)"}
+                                            },
+                                            {
+                                                "system": {"value": "urn:oid:2.16.840.1.113883.2.4.4.8"},
+                                                "code": {"value": 15326012},
+                                                "systemName": {"value": "KNMP article number (ATKODE)"}
+                                            },
+                                            {
+                                                "system": {"value": "urn:oid:2.16.840.1.113883.2.4.4.8"},
+                                                "code": {"value": 15425525},
+                                                "systemName": {"value": "KNMP article number (ATKODE)"}
+                                            },
+                                            {
+                                                "system": {"value": "urn:oid:2.16.840.1.113883.2.4.4.8"},
+                                                "code": {"value": 15441156},
+                                                "systemName": {"value": "KNMP article number (ATKODE)"}
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "title": {"value": "DEFERIPRON"},
+                                        "coding": [
+                                            {
+                                                "system": {"value": "http://www.whocc.no/atc"},
+                                                "code": {"value": "V03AC02"},
+                                                "display": {"value": "DEFERIPRON"},
+                                                "systemName": {"value": "Anatomic Therapeutic Classification code (ATC)"}
+                                            },
+                                            {
+                                                "system": {"value": "urn:oid:2.16.840.1.113883.2.4.4.1"},
+                                                "code": {"value": 129801},
+                                                "display": {"value": "DEFERIPRON DRANK 100MG/ML"},
+                                                "systemName": {"value": "G-standaard Generic product code (GPK)"}
+                                            },
+                                            {
+                                                "system": {"value": "urn:oid:2.16.840.1.113883.2.4.4.10"},
+                                                "code": {"value": 87106},
+                                                "systemName": {"value": "G-standaard Prescription code (PRK)"}
+                                            },
+                                            {
+                                                "system": {"value": "urn:oid:2.16.840.1.113883.2.4.4.7"},
+                                                "code": {"value": 1966219},
+                                                "systemName": {"value": "G-standaard Trade product code (HPK)"}
+                                            },
+                                            {
+                                                "system": {"value": "urn:oid:2.16.840.1.113883.2.4.4.8"},
+                                                "code": {"value": 15397971},
+                                                "systemName": {"value": "KNMP article number (ATKODE)"}
+                                            },
+                                            {
+                                                "system": {"value": "urn:oid:2.16.840.1.113883.2.4.4.1"},
+                                                "code": {"value": 124079},
+                                                "display": {"value": "DEFERIPRON TABLET 500MG"},
+                                                "systemName": {"value": "G-standaard Generic product code (GPK)"}
+                                            },
+                                            {
+                                                "system": {"value": "urn:oid:2.16.840.1.113883.2.4.4.10"},
+                                                "code": {"value": 78425},
+                                                "systemName": {"value": "G-standaard Prescription code (PRK)"}
+                                            },
+                                            {
+                                                "system": {"value": "urn:oid:2.16.840.1.113883.2.4.4.7"},
+                                                "code": {"value": 1750615},
+                                                "systemName": {"value": "G-standaard Trade product code (HPK)"}
+                                            },
+                                            {
+                                                "system": {"value": "urn:oid:2.16.840.1.113883.2.4.4.8"},
+                                                "code": {"value": 15073904},
+                                                "systemName": {"value": "KNMP article number (ATKODE)"}
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            "LabUitslagen": {
+                                "LabUitslag": [
+                                    {
+                                        "title": {"value": "Ferritin [Mass/volume] in Serum or Plasma by Immunoassay"},
+                                        "coding": {
+                                            "system": {"value": "http://loinc.org"},
+                                            "code": {"value": "20567-4"},
+                                            "display": {"value": "Ferritin [Mass/volume] in Serum or Plasma by Immunoassay"}
+                                        }
+                                    },
+                                    {
+                                        "title": {"value": "Ferritin [Mass/volume] in Serum or Plasma"},
+                                        "coding": {
+                                            "system": {"value": "http://loinc.org"},
+                                            "code": {"value": "2276-4"},
+                                            "display": {"value": "Ferritin [Mass/volume] in Serum or Plasma"}
+                                        }
+                                    }
+                                ]
+                            },
+                            "VragenLijst": {
+                                "title": {"value": "Vragenlijst functies voor Hemochromatose"},
+                                "Vraag": {
+                                    "coding": {
+                                        "system": {"value": "http://hl7.org/fhir/sid/icf-nl"},
+                                        "code": {"value": "b4302"},
+                                        "display": {"value": "Transport van metabolieten door bloed"}
+                                    }
+                                }
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}
